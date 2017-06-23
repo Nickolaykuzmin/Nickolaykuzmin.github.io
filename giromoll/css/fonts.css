@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: 'RosaMarena';
+    src: url('fonts/RosaMarena.eot');
+    src: url('fonts/RosaMarena.eot') format('embedded-opentype'),
+         url('fonts/RosaMarena.woff2.html') format('woff2'),
+         url('fonts/RosaMarena.woff') format('woff'),
+         url('fonts/RosaMarena.ttf') format('truetype'),
+         url('fonts/RosaMarena.svg') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Lato-Heavy';
+    src: url('fonts/LatoHeavy.eot');
+    src: url('fonts/LatoHeavy.eot') format('embedded-opentype'),
+         url('fonts/LatoHeavy.woff2.html') format('woff2'),
+         url('fonts/LatoHeavy.woff') format('woff'),
+         url('fonts/LatoHeavy.ttf') format('truetype'),
+         url('fonts/LatoHeavy.svg') format('svg');
+}
+
+
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('fonts/LatoBold.eot');
+    src: url('fonts/LatoBold.eot') format('embedded-opentype'),
+         url('fonts/LatoBold.woff2.html') format('woff2'),
+         url('fonts/LatoBold.woff') format('woff'),
+         url('fonts/LatoBold.ttf') format('truetype'),
+         url('fonts/LatoBold.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('fonts/LatoLight.eot');
+    src: url('fonts/LatoLight.eot') format('embedded-opentype'),
+         url('fonts/LatoLight.woff2.html') format('woff2'),
+         url('fonts/LatoLight.woff') format('woff'),
+         url('fonts/LatoLight.ttf') format('truetype'),
+         url('fonts/LatoLight.svg') format('svg');
+}
+
+
+
