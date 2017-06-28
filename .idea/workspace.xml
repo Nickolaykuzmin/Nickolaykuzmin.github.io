@@ -1,7 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9843dc23-d216-4924-a935-d404eaecaafd" name="Default" comment="" />
+    <list default="true" id="9843dc23-d216-4924-a935-d404eaecaafd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/css/clean.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/css/fonts.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/css/header.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/css/main.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/RobotoRegular/RobotoRegular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/RobotoRegular/RobotoRegular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/RobotoRegular/RobotoRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/Ubuntu/UbuntuB.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/Ubuntu/UbuntuB.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/Ubuntu/UbuntuB.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/Ubuntu/UbuntuR.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/Ubuntu/UbuntuR.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/fonts/Ubuntu/UbuntuR.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/alfa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/bg_steps.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/bg_top_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/bg_top_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/bg_top_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/bg_top_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/bg_top_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/bg_top_18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/branch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/circle_wb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/documents.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/favicon/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/favicon/apple-touch-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/favicon/apple-touch-icon-72x72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/favicon/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/favicon/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/girl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/girl_sec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/hands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ok.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_01_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/ooo_mobi-(1)_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/prom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/rifezan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/img/tinkoff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/js/libs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lavnik/js/loadStorage.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,33 +77,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lavnik/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.min.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lavnik/css/header.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5658" lean-forward="false" selection-start-line="0" selection-start-column="5658" selection-end-line="0" selection-end-column="5658" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,6 +94,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lavnik/css/header.min.css" />
+        <option value="$PROJECT_DIR$/lavnik/js/libs.js" />
       </list>
     </option>
   </component>
@@ -89,56 +133,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Nickolaykuzmin.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nickolaykuzmin.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nickolaykuzmin.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lavnik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nickolaykuzmin.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nickolaykuzmin.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lavnik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nickolaykuzmin.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nickolaykuzmin.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lavnik" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,12 +251,12 @@
       <updated>1498248623015</updated>
       <workItem from="1498248625830" duration="238000" />
       <workItem from="1498636475967" duration="787000" />
-      <workItem from="1498637405860" duration="69000" />
+      <workItem from="1498637405860" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1094000" />
+    <option name="totallyTimeSpent" value="1707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -273,7 +267,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34271523" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34271523" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -320,14 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lavnik/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lavnik/img/bg_top.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -337,6 +323,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5658" lean-forward="false" selection-start-line="0" selection-start-column="5658" selection-end-line="0" selection-end-column="5658" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavnik/js/libs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavnik/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-249">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lavnik/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="548" column="39" lean-forward="false" selection-start-line="548" selection-start-column="39" selection-end-line="548" selection-end-column="39" />
           <folding />
         </state>
       </provider>

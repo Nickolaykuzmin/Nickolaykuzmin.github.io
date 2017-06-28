@@ -1,0 +1,24 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># QUICK START\n  \nFirst of all, you might:\n\n<ul>\n    <li>Install Nodejs here <a href=\"https://nodejs.org/uk/\">Nodejs</a></li>\n    <li>Use command \"npm install\"</li>\n</ul>\n\n#Use Project\n\n<ol>\n    <li>Use command \"gulp\" after installation </li>\n</ol>\n\n#ENJOY!!!
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision e7cc77454d9fe51a0a900326240cfafdf020a77c)
++++ README.md	(revision )
+@@ -7,10 +7,10 @@
+     <li>Use command "npm install"</li>
+ </ul>
+ 
+-#Use Project
++# Use Project
+ 
+ <ol>
+     <li>Use command "gulp" after installation </li>
+ </ol>
+ 
+-#ENJOY!!!
+\ No newline at end of file
++# ENJOY!!!
+\ No newline at end of file
