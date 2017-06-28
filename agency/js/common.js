@@ -1,14 +1,13 @@
 $(document).ready(function ($) {
 
     $('#hamburger').click(function () {
-        if(!$('#navigation_menu').hasClass('active')){
-        	$('#navigation_menu').addClass('active');
-        	$('#navigation_menu').slideToggle('slow');
-        	alert('ad');
+        if(!$('.navigation_menu').hasClass('active')){
+        	$('.navigation_menu').addClass('active');
+        	$('.navigation_menu').slideToggle('slow');
 		}
 		else{
-        	$('#navigation_menu').removeClass('active');
-            $('#navigation_menu').slideToggle('slow');
+        	$('.navigation_menu').removeClass('active');
+            $('.navigation_menu').slideToggle('slow');
 		}
     });
 
