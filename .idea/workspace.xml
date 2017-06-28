@@ -2,232 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9843dc23-d216-4924-a935-d404eaecaafd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoBold/RobotoBold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoBold/RobotoBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoBold/RobotoBold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedBold/RobotoCondensedBold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedBold/RobotoCondensedBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedBold/RobotoCondensedBold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedLight/RobotoCondensedLight.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedLight/RobotoCondensedLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedLight/RobotoCondensedLight.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoLight/RobotoLight.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoLight/RobotoLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoLight/RobotoLight.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoRegular/RobotoRegular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoRegular/RobotoRegular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/RobotoRegular/RobotoRegular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/cwebs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/news-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/photothumb.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/rus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/services/photothumb.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/slide-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/slide-img-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/_ORIGINALS/top-pannel-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/cwebs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/favicon/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/favicon/apple-touch-icon-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/favicon/apple-touch-icon-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/favicon/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/favicon/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/news-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/preloader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/services/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/services/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/services/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/services/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/services/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/services/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/services/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/services/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/slide-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/slide-img-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/top-pannel-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/assets/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/assets/owl.video.play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Nickolaykuzmin.github.io.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/css/_magnific-custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/css/fonts.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/css/header.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/css/main.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/img/rus.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/js/libs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/animate/animate-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/animate/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/animate/animate.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/equalHeights/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/equalHeights/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/equalHeights/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/equalHeights/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/equalHeights/equalheights.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/equalHeights/example/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/css/font-awesome.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/html5shiv/es5-shim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/html5shiv/html5shiv-printshiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/html5shiv/html5shiv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/3rdparty/addons/currentitem/jquery.mmenu.currentitem.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/3rdparty/addons/dragclose/jquery.mmenu.dragclose.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/3rdparty/extensions/leftsubpanels/jquery.mmenu.leftsubpanels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/3rdparty/extensions/panelshadow/jquery.mmenu.panelshadow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/autoheight/jquery.mmenu.autoheight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/autoheight/jquery.mmenu.autoheight.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/backbutton/jquery.mmenu.backbutton.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/columns/jquery.mmenu.columns.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/columns/jquery.mmenu.columns.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/counters/jquery.mmenu.counters.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/counters/jquery.mmenu.counters.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/dividers/jquery.mmenu.dividers.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/dividers/jquery.mmenu.dividers.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/dragopen/jquery.mmenu.dragopen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/dragopen/jquery.mmenu.dragopen.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/dropdown/jquery.mmenu.dropdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/dropdown/jquery.mmenu.dropdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/fixedelements/jquery.mmenu.fixedelements.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/iconpanels/jquery.mmenu.iconpanels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/iconpanels/jquery.mmenu.iconpanels.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/navbars/jquery.mmenu.navbars.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/navbars/jquery.mmenu.navbars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/offcanvas/jquery.mmenu.offcanvas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/offcanvas/jquery.mmenu.offcanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/screenreader/jquery.mmenu.screenreader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/screenreader/jquery.mmenu.screenreader.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/scrollbugfix/jquery.mmenu.scrollbugfix.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/searchfield/jquery.mmenu.searchfield.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/searchfield/jquery.mmenu.searchfield.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/sectionindexer/jquery.mmenu.sectionindexer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/sectionindexer/jquery.mmenu.sectionindexer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/setselected/jquery.mmenu.setselected.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/setselected/jquery.mmenu.setselected.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/toggles/jquery.mmenu.toggles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/addons/toggles/jquery.mmenu.toggles.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/css/jquery.mmenu.all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/css/jquery.mmenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/css/jquery.mmenu.oncanvas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/borderstyle/jquery.mmenu.borderstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/effects/jquery.mmenu.effects.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/fullscreen/jquery.mmenu.fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/iconbar/jquery.mmenu.iconbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/multiline/jquery.mmenu.multiline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/pagedim/jquery.mmenu.pagedim.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/pageshadow/jquery.mmenu.pageshadow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/popup/jquery.mmenu.popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/positioning/jquery.mmenu.positioning.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/themes/jquery.mmenu.themes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/tileview/jquery.mmenu.tileview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/extensions/widescreen/jquery.mmenu.widescreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/js/jquery.mmenu.all.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/js/jquery.mmenu.all.min.umd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/js/jquery.mmenu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/js/jquery.mmenu.min.umd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/js/jquery.mmenu.oncanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/wrappers/angular/jquery.mmenu.angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/wrappers/jquerymobile/jquery.mmenu.jquerymobile.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/wrappers/magento/jquery.mmenu.magento.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/wrappers/olark/jquery.mmenu.olark.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/wrappers/turbolinks/jquery.mmenu.turbolinks.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jQuery.mmenu/dist/wrappers/wordpress/jquery.mmenu.wordpress.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/jquery/jquery-1.11.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/magnific-popup/dist/jquery.magnific-popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/magnific-popup/dist/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/magnific-popup/dist/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/modernizr/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/assets/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/assets/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/assets/owl.theme.default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/assets/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/assets/owl.theme.green.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/assets/owl.theme.green.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/owl.carousel/dist/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/plugins-scroll/plugins-scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/respond/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/css/megafish.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/css/superfish-navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/css/superfish-vertical.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/css/superfish.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/js/hoverIntent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/js/superfish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/js/superfish.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/superfish/dist/js/supersubs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/libs/waypoints/waypoints.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/mail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udis/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -280,10 +55,6 @@
               <option name="myItemId" value="Nickolaykuzmin.github.io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="udis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -321,12 +92,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498248623015</updated>
-      <workItem from="1498248625830" duration="55000" />
+      <workItem from="1498248625830" duration="238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55000" />
+    <option name="totallyTimeSpent" value="238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
