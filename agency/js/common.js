@@ -4,6 +4,7 @@ $(document).ready(function ($) {
         if(!$('.navigation_menu').hasClass('active')){
         	$('.navigation_menu').addClass('active');
         	$('.navigation_menu').slideToggle('slow');
+        	alert('ad');
 		}
 		else{
         	$('.navigation_menu').removeClass('active');
