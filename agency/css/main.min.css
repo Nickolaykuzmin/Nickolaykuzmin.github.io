@@ -3261,7 +3261,7 @@ button:hover {
 
 .white-popup .call_order .content_form input::-webkit-input-placeholder {
     font-family: "Ubuntu", sans-serif;
-    color: #d4d4d4
+    color: #d4d4d4;
 }
 
 .white-popup .call_order .content_form input:focus {
@@ -3269,7 +3269,7 @@ button:hover {
 }
 
 .white-popup .call_order .content_form input:focus::-webkit-input-placeholder {
-    color: #2c4058
+    color: #2c4058;
 }
 
 .white-popup .call_order .content_form button {
