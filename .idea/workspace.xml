@@ -4,8 +4,6 @@
     <list default="true" id="9843dc23-d216-4924-a935-d404eaecaafd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/css/header.min.css" afterPath="$PROJECT_DIR$/agency/css/header.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/css/main.min.css" afterPath="$PROJECT_DIR$/agency/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/index.html" afterPath="$PROJECT_DIR$/agency/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="header.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agency/css/header.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="4353" lean-forward="false" selection-start-line="1" selection-start-column="4353" selection-end-line="1" selection-end-column="4353" />
+            <state relative-caret-position="0">
+              <caret line="0" column="185" lean-forward="false" selection-start-line="0" selection-start-column="185" selection-end-line="0" selection-end-column="185" />
               <folding />
             </state>
           </provider>
@@ -90,6 +88,7 @@
       <find>#top_header .content_header p</find>
       <find>top:</find>
       <find>#one .register_item .title p</find>
+      <find>#top_header .navigation_menu ul li a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -319,12 +318,12 @@
       <workItem from="1498660755902" duration="855000" />
       <workItem from="1498662127479" duration="570000" />
       <workItem from="1498678046873" duration="329000" />
-      <workItem from="1498725045590" duration="2692000" />
+      <workItem from="1498725045590" duration="3196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7507000" />
+    <option name="totallyTimeSpent" value="8011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -508,8 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agency/css/header.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="4353" lean-forward="false" selection-start-line="1" selection-start-column="4353" selection-end-line="1" selection-end-column="4353" />
+        <state relative-caret-position="0">
+          <caret line="0" column="185" lean-forward="false" selection-start-line="0" selection-start-column="185" selection-end-line="0" selection-end-column="185" />
           <folding />
         </state>
       </provider>
