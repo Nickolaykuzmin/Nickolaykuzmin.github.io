@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9843dc23-d216-4924-a935-d404eaecaafd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/css/header.min.css" afterPath="$PROJECT_DIR$/agency/css/header.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/css/main.min.css" afterPath="$PROJECT_DIR$/agency/css/main.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,8 +36,8 @@
       <file leaf-file-name="header.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agency/css/header.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="5562" lean-forward="true" selection-start-line="1" selection-start-column="5562" selection-end-line="1" selection-end-column="5562" />
+            <state relative-caret-position="170">
+              <caret line="212" column="20" lean-forward="false" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -45,8 +46,8 @@
       <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="1" column="69466" lean-forward="false" selection-start-line="1" selection-start-column="69466" selection-end-line="1" selection-end-column="69466" />
+            <state relative-caret-position="397">
+              <caret line="4171" column="37" lean-forward="false" selection-start-line="4171" selection-start-column="37" selection-end-line="4171" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -86,11 +87,13 @@
       <find>Помощь в подготовке и сдаче</find>
       <find>body</find>
       <find>a,</find>
-      <find>#top_header .form_resp .call_order .content_form input</find>
       <find>#carts .cart_item a</find>
       <find>#carts .cart_item a{</find>
       <find>#footer .navigation_menu ul li a</find>
       <find>#footer .callback .phone_header</find>
+      <find>#dificults .call_order input</find>
+      <find>#six .call_order .content_form input</find>
+      <find>#top_header .form_resp .call_order .content_form input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -324,12 +327,12 @@
       <workItem from="1498725045590" duration="3992000" />
       <workItem from="1498731622466" duration="1061000" />
       <workItem from="1498733899169" duration="21000" />
-      <workItem from="1498735089543" duration="993000" />
+      <workItem from="1498735089543" duration="1525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10882000" />
+    <option name="totallyTimeSpent" value="11414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -341,7 +344,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3409091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -582,16 +585,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agency/css/header.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="5562" lean-forward="true" selection-start-line="1" selection-start-column="5562" selection-end-line="1" selection-end-column="5562" />
+        <state relative-caret-position="170">
+          <caret line="212" column="20" lean-forward="false" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1" column="69466" lean-forward="false" selection-start-line="1" selection-start-column="69466" selection-end-line="1" selection-end-column="69466" />
+        <state relative-caret-position="397">
+          <caret line="4171" column="37" lean-forward="false" selection-start-line="4171" selection-start-column="37" selection-end-line="4171" selection-end-column="37" />
           <folding />
         </state>
       </provider>
