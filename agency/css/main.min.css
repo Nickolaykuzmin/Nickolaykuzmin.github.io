@@ -3588,7 +3588,7 @@ body textarea:required:valid {
 }
 
 #six .call_order .content_form input {
-    width: 100%;
+    width: 85%;
     font-size: 18px;
     border-top: none;
     border-left: none;
