@@ -3654,7 +3654,8 @@ body textarea:required:valid {
 }
 
 #six .call_order input:last-child {
-    margin-right: 0
+    margin-right: 0;
+    width: 97%;
 }
 
 #six .abs_photo_wrapper {
@@ -3792,7 +3793,7 @@ body textarea:required:valid {
     background: 0 0;
     border: 1px solid #fff;
     color: #fff;
-    padding: 15px 50px;
+    padding: 15px 70px;
     font-weight: 300
 }
 
