@@ -3334,7 +3334,7 @@ body textarea:required:valid {
 #carts .button_cart a {
     font-size: 14px;
     color: #2c4058;
-    padding: 10px 15px;
+    padding: 15px 15px;
     width: 100%;
     text-transform: uppercase;
     border: 1px solid #2c4058;
@@ -3388,6 +3388,10 @@ body textarea:required:valid {
     margin-right: 0
 }
 
+.list_cart_item{
+    padding: 20px 17px;
+}
+
 #carts .cart_item .head_cart_item h4 {
     font-family: "Ubuntu", sans-serif;
     font-size: 18px;
@@ -3402,38 +3406,35 @@ body textarea:required:valid {
     font-size: 18px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    padding: 20px 0 10px;
+    padding: 20px 0 20px;
     font-weight: 700;
     color: #fff;
-    text-align: center
+    text-align: center;
 }
 
 #carts .cart_item .list_cart_item ul {
-    padding: 15px 10px;
     color: #fff;
     font-size: 14px
 }
 
-#carts .cart_item .list_cart_item .second {
-    padding: 0 10px
-}
 
 #carts .cart_item .list_cart_item span {
     color: #fff;
     font-family: "Ubuntu", sans-serif;
     font-size: 15px;
-    font-weight: 700
+    font-weight: 700;
+    display: block;
+    margin-top: 20px;
 }
 
 #carts .cart_item .list_cart_item .third {
-    margin-top: 77px;
+    margin-top: 96px;
     display: block
 }
 
 #carts .cart_item .list_cart_item .fourth {
-    margin-top: 50px;
+    margin-top: 62px;
     display: block;
-    margin-bottom: 45px
 }
 
 #four {
@@ -3618,7 +3619,7 @@ body textarea:required:valid {
     background: 0 0;
     color: #2c4058;
     border: 1px solid #2c4058;
-    padding: 10px 15px;
+    padding: 15px 15px;
     width: 100%;
     margin-top: 20px;
     text-transform: uppercase
@@ -3668,7 +3669,7 @@ body textarea:required:valid {
 
 #steps {
     padding: 120px 0 100px;
-    background: url(../img/bg_steps.jpg) no-repeat top center
+    background: url(../ooo_06.png) no-repeat top center
 }
 
 #steps form {
@@ -3711,7 +3712,7 @@ body textarea:required:valid {
     font-size: 13px;
     background: 0 0;
     border: 1px solid #fff;
-    padding: 10px;
+    padding: 15px;
     color: #98cef9;
     font-weight: 300
 }
@@ -3756,7 +3757,7 @@ body textarea:required:valid {
 }
 
 #steps .item_image img {
-    width: 159px
+    width: 164px;
 }
 
 #steps .item_image:nth-child(odd) {
@@ -3778,7 +3779,7 @@ body textarea:required:valid {
 }
 
 #steps .content_item p {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     color: #fff;
@@ -3791,7 +3792,7 @@ body textarea:required:valid {
     background: 0 0;
     border: 1px solid #fff;
     color: #fff;
-    padding: 10px 50px;
+    padding: 15px 50px;
     font-weight: 300
 }
 
@@ -3830,7 +3831,7 @@ body textarea:required:valid {
 }
 
 #dificults .call_order input:first-child {
-    padding: 0 104px 0 0;
+    padding: 0 79px 0 0;
     margin-right: 16px;
 }
 
@@ -3848,7 +3849,7 @@ body textarea:required:valid {
 
 #dificults .call_order button {
     background: 0 0;
-    padding: 10px 15px;
+    padding: 10px 50px;
     color: #2c4058;
     font-size: 14px;
     border: 1px solid #2c4058
@@ -3921,9 +3922,9 @@ body textarea:required:valid {
 #reviews .review_item {
     max-height: 560px;
     min-height: 560px;
-    -webkit-box-shadow: 0 0 25px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
     padding: 25px;
-    box-shadow: 0 0 25px #ccc;
+    box-shadow: 0 0 5px #ccc;
     margin-bottom: 30px
 }
 
@@ -4069,7 +4070,7 @@ body textarea:required:valid {
     font-size: 18px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    padding: 20px 0 10px;
+    padding: 20px 0 20px;
     font-weight: 700;
     color: #fff;
     text-align: center
@@ -6509,6 +6510,10 @@ body textarea:required:valid {
         font-size: 14px;
         padding-top: 10px;
         margin-bottom: 20px
+    }
+
+    #carts .cart_item{
+        background: url('../img/ooo_03.png') no-repeat top center;
     }
     #carts .cart_item .list_cart_item li,
     #carts .cart_item .list_cart_item span {
