@@ -3868,14 +3868,6 @@ body textarea:required:valid {
     position: relative
 }
 
-#dificults h3:after {
-    content: '';
-    position: absolute;
-    left: 45%;
-    width: 100px;
-    top: -8px;
-    border-top: 1px solid #2c4058
-}
 
 #dificults h4 {
     font-size: 24px;
