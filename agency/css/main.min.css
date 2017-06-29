@@ -3594,7 +3594,7 @@ body textarea:required:valid {
     -webkit-border-radius: 0;
     border-radius: 0;
     border-right: none;
-    border-bottom: 2px solid #2c4058;
+    border-bottom: 2px solid #ccc;
     background: 0 0;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -3607,6 +3607,7 @@ body textarea:required:valid {
 
 #six .call_order .content_form input:focus::-webkit-input-placeholder {
     color: #2c4058;
+    border-bottom: 1px solid #2c4058;
 }
 
 #six .call_order .content_form button {
@@ -3822,20 +3823,23 @@ body textarea:required:valid {
     box-shadow: none;
     font-size: 18px;
     padding-left: 0;
-    border-bottom: 1px solid #ccc
+    border-bottom: 1px solid #ccc;
 }
 
 #dificults .call_order input:first-child {
     padding: 0 104px 0 0;
-    margin-right: 16px
+    margin-right: 16px;
 }
 
 #dificults .call_order input::-webkit-input-placeholder {
-    color: #d4d4d4
+    color: #d4d4d4;
 }
 
 #dificults .call_order input:focus::-webkit-input-placeholder {
     color: #2c4058;
+}
+
+#dificults .call_order input:focus {
     border-bottom: 1px solid #2c4058;
 }
 
