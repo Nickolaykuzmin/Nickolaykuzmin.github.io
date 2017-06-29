@@ -3916,7 +3916,7 @@ body textarea:required:valid {
 #reviews h4 {
     font-size: 24px;
     color: #2c4058;
-    margin-bottom: 120px
+    margin-bottom: 90px;
 }
 
 #reviews .review_item {
@@ -3995,7 +3995,7 @@ body textarea:required:valid {
 }
 
 #ten .ten_title {
-    margin-bottom: 120px
+    margin-bottom: 90px;
 }
 
 #ten .second_item {
@@ -4013,7 +4013,7 @@ body textarea:required:valid {
 #ten .button_cart a {
     font-size: 14px;
     color: #2c4058;
-    padding: 10px 15px;
+    padding: 15px 15px;
     text-transform: uppercase;
     border: 1px solid #2c4058;
     display: block;
@@ -5634,10 +5634,6 @@ body textarea:required:valid {
     #dificults {
         padding-top: 40px;
         padding-bottom: 40px
-    }
-    #dificults h3::after {
-        left: 50%;
-        margin-left: -50px
     }
     #dificults h4 {
         margin-bottom: 35px
