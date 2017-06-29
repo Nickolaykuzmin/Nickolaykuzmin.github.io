@@ -3607,6 +3607,9 @@ body textarea:required:valid {
 
 #six .call_order .content_form input:focus::-webkit-input-placeholder {
     color: #2c4058;
+}
+
+#six .call_order .content_form input:focus{
     border-bottom: 1px solid #2c4058;
 }
 
