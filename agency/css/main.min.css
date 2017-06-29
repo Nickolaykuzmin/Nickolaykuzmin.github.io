@@ -4061,7 +4061,9 @@ body textarea:required:valid {
 }
 
 #ten .cart_item .head_cart_item .third_elem {
-    margin-top: -54px
+    margin-top: -54px;
+    position: relative;
+    top: 12px;
 }
 
 #ten .cart_item .content_cart_item h4 {
