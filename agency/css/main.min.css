@@ -4023,7 +4023,8 @@ body textarea:required:valid {
 
 #ten .cart_item {
     background: url('../img/ooo_03.png') no-repeat;
-    padding: 60px 20px 40px
+    padding: 60px 20px 40px;
+    max-height: 386px;
 }
 
 #ten .cart_item a {
