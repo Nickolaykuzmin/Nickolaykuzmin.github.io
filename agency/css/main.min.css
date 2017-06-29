@@ -3448,11 +3448,11 @@ body textarea:required:valid {
     font-weight: 700;
     margin-top: 30px;
     color: #2c4058;
-    font-size: 30px
+    font-size: 28px;
 }
 
 #four .depends p {
-    font-size: 24px;
+    font-size: 22px;
     color: #2c4058
 }
 
@@ -3470,8 +3470,8 @@ body textarea:required:valid {
 
 #four .abs_photo_wrapper {
     position: absolute;
-    height: 250px;
-    width: 350px;
+    height: 332px;
+    width: 445px;
     background: #55b7ff;
     right: 0;
     top: 19px;
@@ -3659,12 +3659,12 @@ body textarea:required:valid {
 
 #six .abs_photo_wrapper {
     position: absolute;
-    height: 250px;
-    width: 350px;
+    height: 332px;
+    width: 445px;
     background: #55b7ff;
     left: 0;
     top: 19px;
-    z-index: -10000
+    z-index: -10000;
 }
 
 #steps {
