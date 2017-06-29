@@ -3588,6 +3588,7 @@ body textarea:required:valid {
 }
 
 #six .call_order .content_form input {
+    width: 100%;
     font-size: 18px;
     border-top: none;
     border-left: none;
@@ -3595,7 +3596,7 @@ body textarea:required:valid {
     -webkit-border-radius: 0;
     border-radius: 0;
     border-right: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     background: 0 0;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -3640,8 +3641,7 @@ body textarea:required:valid {
 }
 
 #six .call_order .form-group {
-    width: 50%;
-    float: left
+    width: 49%;
 }
 
 #six .call_order .form-group:nth-child(2) {
@@ -3679,7 +3679,7 @@ body textarea:required:valid {
 
 #steps input {
     background: 0 0;
-    border-bottom: 2px solid #6bb1e7;
+    border-bottom: 1px solid #6bb1e7;
     border-left: none;
     font-size: 18px;
     -webkit-transition: all .5s;
