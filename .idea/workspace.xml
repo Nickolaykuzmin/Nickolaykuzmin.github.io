@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9843dc23-d216-4924-a935-d404eaecaafd" name="Default" comment="initial">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/css/main.min.css" afterPath="$PROJECT_DIR$/agency/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/index.html" afterPath="$PROJECT_DIR$/agency/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agency/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="356" column="51" lean-forward="false" selection-start-line="356" selection-start-column="51" selection-end-line="356" selection-end-column="51" />
+            <state relative-caret-position="183">
+              <caret line="355" column="30" lean-forward="true" selection-start-line="355" selection-start-column="30" selection-end-line="355" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1498822650000" expanded="false" signature="27050:27080" ph="..." />
@@ -44,13 +44,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="3406" column="24" lean-forward="false" selection-start-line="3406" selection-start-column="24" selection-end-line="3406" selection-end-column="24" />
+              <caret line="3464" column="21" lean-forward="false" selection-start-line="3464" selection-start-column="21" selection-end-line="3464" selection-end-column="21" />
               <folding>
-                <marker date="1498822620000" expanded="true" signature="162365:162374" ph="{...}" />
+                <marker date="1498822837000" expanded="true" signature="162365:162374" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,7 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>a,</find>
       <find>#carts .cart_item a</find>
       <find>#carts .cart_item a{</find>
       <find>#footer .navigation_menu ul li a</find>
@@ -98,6 +97,7 @@
       <find>.list_cart_item li</find>
       <find>.list_cart_item</find>
       <find>margin-top: 72</find>
+      <find>#carts .cart_item .list_cart_item .third</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/agency/js/common.js" />
         <option value="$PROJECT_DIR$/agency/css/fonts.min.css" />
         <option value="$PROJECT_DIR$/agency/css/header.min.css" />
-        <option value="$PROJECT_DIR$/agency/css/main.min.css" />
         <option value="$PROJECT_DIR$/agency/index.html" />
+        <option value="$PROJECT_DIR$/agency/css/main.min.css" />
       </list>
     </option>
   </component>
@@ -297,7 +297,7 @@
       <workItem from="1498733899169" duration="21000" />
       <workItem from="1498735089543" duration="3072000" />
       <workItem from="1498744577309" duration="2063000" />
-      <workItem from="1498811947944" duration="4104000" />
+      <workItem from="1498811947944" duration="4212000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1498737020176</created>
@@ -310,7 +310,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19128000" />
+    <option name="totallyTimeSpent" value="19236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="0" />
@@ -377,7 +377,7 @@
         <state relative-caret-position="58698">
           <caret line="3261" column="44" lean-forward="false" selection-start-line="3261" selection-start-column="44" selection-end-line="3261" selection-end-column="44" />
           <folding>
-            <marker date="1498822620000" expanded="true" signature="162365:162374" ph="{...}" />
+            <marker date="1498822837000" expanded="true" signature="162365:162374" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -401,7 +401,7 @@
         <state relative-caret-position="58698">
           <caret line="3261" column="44" lean-forward="false" selection-start-line="3261" selection-start-column="44" selection-end-line="3261" selection-end-column="44" />
           <folding>
-            <marker date="1498822620000" expanded="true" signature="162365:162374" ph="{...}" />
+            <marker date="1498822837000" expanded="true" signature="162365:162374" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -649,26 +649,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="3406" column="24" lean-forward="false" selection-start-line="3406" selection-start-column="24" selection-end-line="3406" selection-end-column="24" />
-          <folding>
-            <marker date="1498822620000" expanded="true" signature="162365:162374" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/agency/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="356" column="51" lean-forward="false" selection-start-line="356" selection-start-column="51" selection-end-line="356" selection-end-column="51" />
+        <state relative-caret-position="183">
+          <caret line="355" column="30" lean-forward="true" selection-start-line="355" selection-start-column="30" selection-end-line="355" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1498822650000" expanded="false" signature="27050:27080" ph="..." />
             <marker date="1498822650000" expanded="false" signature="27256:27285" ph="..." />
             <marker date="1498822650000" expanded="false" signature="29291:29309" ph="..." />
             <marker date="1498822650000" expanded="true" signature="35808:35840" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="3464" column="21" lean-forward="false" selection-start-line="3464" selection-start-column="21" selection-end-line="3464" selection-end-column="21" />
+          <folding>
+            <marker date="1498822837000" expanded="true" signature="162365:162374" ph="{...}" />
           </folding>
         </state>
       </provider>
