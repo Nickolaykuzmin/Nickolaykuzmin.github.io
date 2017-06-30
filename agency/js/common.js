@@ -21,14 +21,14 @@ $(document).ready(function ($) {
 
 
     $('#hamburger').click(function () {
-        if(!$('.navigation_menu').hasClass('active')){
-        	$('.navigation_menu').addClass('active');
-        	$('.navigation_menu').slideToggle('slow');
+        if(!$('#navigation').hasClass('active')){
+        	$('#navigation').addClass('active');
+        	$('#navigation').show('slow');
 		}
-		else{
-        	$('.navigation_menu').removeClass('active');
-            $('.navigation_menu').slideToggle('slow');
-		}
+		// else{
+        	// $('#navigation').removeClass('active');
+         //    $('#navigation').hide('slow');
+		// }
     });
 
     $('.popup').magnificPopup({
