@@ -5998,6 +5998,7 @@ body textarea:required:valid {
         position: absolute;
         right: 2px;
         top: 2px;
+        z-index: 10000;
         display: block
     }
     #top_header .form_resp .call_order {
@@ -6109,6 +6110,12 @@ body textarea:required:valid {
         background: url(../img/bg_steps.jpg) no-repeat;
         display: none
     }
+    #navigation{
+        z-index: 1000;}
+    #navigation ul{
+        margin-top: 100px;}
+    #navigation li{
+        padding: 20px;}
     #top_header .navigation_menu ul li {
         width: 100%;
         text-align: right;
@@ -6444,7 +6451,8 @@ body textarea:required:valid {
         background-size: 385px
     }
     #top_header .navigation_menu {
-        top: 54px
+        top: 5px;
+        z-index: 1000;
     }
 }
 
