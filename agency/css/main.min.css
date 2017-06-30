@@ -3497,7 +3497,7 @@ body textarea:required:valid {
 #four .depends .button_cart a {
     font-size: 14px;
     color: #2c4058;
-    padding: 14px 15px;
+    padding: 14px 20px;
     text-transform: uppercase;
     border: 1px solid #2c4058;
 }
@@ -3954,7 +3954,7 @@ body textarea:required:valid {
     -webkit-box-shadow: 0px 0px 11px rgba(204, 204, 204, 0.52);
     padding: 25px;
     box-shadow: 0px 0px 11px rgba(204, 204, 204, 0.52);
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 #reviews .review_item .about_me {
@@ -3964,7 +3964,8 @@ body textarea:required:valid {
 #reviews .review_item p {
     font-size: 16px;
     color: #2c4058;
-    margin: 20px 0
+    margin: 20px 0;
+    line-height: 1.2;
 }
 
 #reviews .review_item .like_post {
@@ -5819,14 +5820,23 @@ body textarea:required:valid {
 }
 
 @media only screen and (max-width:992px) {
+    #ten .cart_item{
+        background: linear-gradient(243deg,#00CDFC 40%,#0090E0 70%, #0090E0 100%);
+    }
+    #carts .cart_item a{
+        padding-top: 85px;}
+    #carts .cart_item{
+        background: linear-gradient(243deg,#00CDFC 40%,#0090E0 70%, #0090E0 100%);
+    }
+
+    #one .register_item{
+        min-width:inherit;
+    }
     #ten .cart_item {
         max-width: 345px
     }
     #ten .button_cart {
         margin-bottom: 20px
-    }
-    .fixx {
-        clear: both
     }
     #dificults .call_order button {
         margin-top: 20px;
@@ -5897,9 +5907,6 @@ body textarea:required:valid {
     }
     #carts .media_cart .head_cart_item h4 {
         padding-bottom: 20px
-    }
-    #carts .media_check a {
-        padding-top: 85px
     }
     #steps .form-inline .form-group input {
         margin-right: 0
@@ -5982,6 +5989,8 @@ body textarea:required:valid {
 }
 
 @media only screen and (max-width:767px) {
+    #top_header{
+        padding: 0;}
     #top_header .wrap_header .row {
         padding-top: 0
     }
@@ -6132,9 +6141,6 @@ body textarea:required:valid {
     }
     #one .left_image {
         max-width: 90px
-    }
-    #one .register_item {
-        min-height: auto
     }
     #one .register_item .title {
         padding-left: 0
@@ -6346,6 +6352,8 @@ body textarea:required:valid {
 }
 
 @media only screen and (max-width:590px) {
+    #dificults .diff_item{
+        margin-bottom: 20px;}
     #five .fond_item .item_image .item_wrap {
         width: 100%;
         margin-left: 0
@@ -6353,6 +6361,11 @@ body textarea:required:valid {
 }
 
 @media only screen and (max-width:480px) {
+    #carts .cart_item .content_cart_item h4:after,#carts .cart_item .content_cart_item h4:before,#ten .cart_item .content_cart_item h4:before,#ten .cart_item .content_cart_item h4:after{
+        left:22%;
+    }
+    #dificults .call_order input:first-child{
+        padding: 0;}
     .navigation_menu .active {
         width: 100%
     }
@@ -6441,6 +6454,9 @@ body textarea:required:valid {
 }
 
 @media only screen and (max-width:320px) {
+    #carts .cart_item .content_cart_item h4:after, #carts .cart_item .content_cart_item h4:before, #ten .cart_item .content_cart_item h4:before, #ten .cart_item .content_cart_item h4:after{
+        left: 13%;
+    }
     h1,
     h2,
     h3,
@@ -6575,9 +6591,6 @@ body textarea:required:valid {
     #carts .cart_item .list_cart_item .fourth {
         margin-bottom: 0;
         margin-top: 30px
-    }
-    #carts .media_check a {
-        padding-top: 60px
     }
     #four {
         padding-top: 20px
