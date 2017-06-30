@@ -3039,6 +3039,8 @@
 }
 
 input:hover{border-bottom: 1px solid #2c4058;}
+input:hover::-webkit-input-placeholder{
+    color: #2c4058 !important;}
 
 .slideInRight {
     -webkit-animation-name: slideInRight;
