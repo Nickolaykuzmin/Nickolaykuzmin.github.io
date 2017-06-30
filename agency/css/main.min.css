@@ -1,5 +1,5 @@
 #steps .content_item a:hover {
-    box-shadow: 0 0 25px #ccc;
+    box-shadow: 0 0 30px #fff !important;
 }
 
 .animated {
@@ -3752,6 +3752,8 @@ body textarea:required:valid {
     font-weight: 300
 }
 
+#steps button:hover{box-shadow: 0 0 30px #fff !important;}
+
 #steps button {
     color: #fff
 }
@@ -4210,7 +4212,7 @@ body textarea:required:valid {
     -webkit-border-radius: 0;
     border-radius: 0;
     border-right: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     background: 0 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4225,7 +4227,7 @@ body textarea:required:valid {
     color: #2c4058;
 }
 #map .form-wrapper .call_order .content_form input:focus{
-    border-bottom: 1px solid #2c4058;
+    border-bottom: 2px solid #2c4058;
 }
 
 #map .form_wrapper .call_order .content_form button {
@@ -5440,6 +5442,9 @@ body textarea:required:valid {
     }
     #two button {
         margin-top: 30px
+    }
+    #two button:hover{
+        box-shadow: 0 0 30px #fff !important;
     }
     #top_header {
         height: auto;
