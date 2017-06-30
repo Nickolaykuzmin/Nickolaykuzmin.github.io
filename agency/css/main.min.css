@@ -6147,6 +6147,7 @@ body textarea:required:valid {
         font-size: 12px;
         text-align: center;
         font-weight: 400;
+        color: #2c4058;
     }
     #two {
         padding-top: 50px;
