@@ -3404,13 +3404,29 @@ body textarea:required:valid {
 #carts .cart_item .content_cart_item h4 {
     font-family: "Ubuntu", sans-serif;
     font-size: 18px;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
     padding: 20px 0 20px;
     font-weight: 700;
     color: #fff;
     text-align: center;
 }
+
+#carts .cart_item .content_cart_item h4:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 2px;
+    background: #fff;
+}
+#carts .cart_item .content_cart_item h4:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 2px;
+    background: #fff;
+}
+
 
 #carts .cart_item .list_cart_item ul {
     color: #fff;
