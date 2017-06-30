@@ -4,7 +4,6 @@
     <list default="true" id="9843dc23-d216-4924-a935-d404eaecaafd" name="Default" comment="initial">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/css/main.min.css" afterPath="$PROJECT_DIR$/agency/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agency/index.html" afterPath="$PROJECT_DIR$/agency/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,10 +46,10 @@
       <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="5450" column="7" lean-forward="false" selection-start-line="5450" selection-start-column="7" selection-end-line="5450" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="3384" column="50" lean-forward="false" selection-start-line="3384" selection-start-column="50" selection-end-line="3384" selection-end-column="50" />
               <folding>
-                <marker date="1498821545000" expanded="true" signature="162497:162506" ph="{...}" />
+                <marker date="1498821759000" expanded="true" signature="162301:162310" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,8 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#top_header .content_header p</find>
-      <find>#one .register_item .title p</find>
       <find>#top_header .navigation_menu ul li a</find>
       <find>#top_header .content_header h3</find>
       <find>top:</find>
@@ -96,8 +93,10 @@
       <find>2c4058#two input</find>
       <find>#two input</find>
       <find>Быстро, ка</find>
-      <find>#carts .cart_item</find>
       <find>#two button:hover</find>
+      <find>cart_item</find>
+      <find>cart_item{</find>
+      <find>#carts .cart_item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -297,7 +296,7 @@
       <workItem from="1498733899169" duration="21000" />
       <workItem from="1498735089543" duration="3072000" />
       <workItem from="1498744577309" duration="2063000" />
-      <workItem from="1498811947944" duration="3390000" />
+      <workItem from="1498811947944" duration="3521000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1498737020176</created>
@@ -310,7 +309,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18414000" />
+    <option name="totallyTimeSpent" value="18545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="0" />
@@ -376,7 +375,7 @@
         <state relative-caret-position="58698">
           <caret line="3261" column="44" lean-forward="false" selection-start-line="3261" selection-start-column="44" selection-end-line="3261" selection-end-column="44" />
           <folding>
-            <marker date="1498821545000" expanded="true" signature="162497:162506" ph="{...}" />
+            <marker date="1498821759000" expanded="true" signature="162301:162310" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -399,7 +398,7 @@
         <state relative-caret-position="58698">
           <caret line="3261" column="44" lean-forward="false" selection-start-line="3261" selection-start-column="44" selection-end-line="3261" selection-end-column="44" />
           <folding>
-            <marker date="1498821545000" expanded="true" signature="162497:162506" ph="{...}" />
+            <marker date="1498821759000" expanded="true" signature="162301:162310" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -653,10 +652,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="5450" column="7" lean-forward="false" selection-start-line="5450" selection-start-column="7" selection-end-line="5450" selection-end-column="7" />
+        <state relative-caret-position="210">
+          <caret line="3384" column="50" lean-forward="false" selection-start-line="3384" selection-start-column="50" selection-end-line="3384" selection-end-column="50" />
           <folding>
-            <marker date="1498821545000" expanded="true" signature="162497:162506" ph="{...}" />
+            <marker date="1498821759000" expanded="true" signature="162301:162310" ph="{...}" />
           </folding>
         </state>
       </provider>
