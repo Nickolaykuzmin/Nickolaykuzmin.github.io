@@ -3385,7 +3385,8 @@ body textarea:required:valid {
     background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #3c7fd4), to(#24ccfa));
     background: -webkit-linear-gradient(bottom, #3c7fd4 50%, #24ccfa 100%);
     background: linear-gradient(360deg, #3c7fd4 50%, #24ccfa 100%);
-    padding: 25px 15px
+    padding: 25px 15px;
+    max-height: 513px;
 }
 
 #carts .cart_item a {
