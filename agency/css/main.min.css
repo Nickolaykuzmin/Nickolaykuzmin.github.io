@@ -3406,6 +3406,7 @@ body textarea:required:valid {
     font-size: 18px;
     padding: 20px 0 20px;
     font-weight: 700;
+    position: relative;
     color: #fff;
     text-align: center;
 }
@@ -3414,16 +3415,18 @@ body textarea:required:valid {
     content: "";
     position: absolute;
     top: 0;
-    width: 200px;
-    height: 2px;
+    width: 180px;
+    left: 12%;
+    height: 1px;
     background: #fff;
 }
 #carts .cart_item .content_cart_item h4:after {
     content: "";
     position: absolute;
     bottom: 0;
-    width: 200px;
-    height: 2px;
+    width: 180px;
+    left: 12%;
+    height: 1px;
     background: #fff;
 }
 
@@ -4078,13 +4081,35 @@ body textarea:required:valid {
 #ten .cart_item .content_cart_item h4 {
     font-family: "Ubuntu", sans-serif;
     font-size: 18px;
+    position: relative;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     padding: 20px 0 20px;
     font-weight: 700;
     color: #fff;
-    text-align: center
+    text-align: center;
 }
+
+#ten .cart_item .content_cart_item h4:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 180px;
+    left: 12%;
+    height: 1px;
+    background: #fff;
+}
+
+#ten .cart_item .content_cart_item h4:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 180px;
+    left: 12%;
+    height: 1px;
+    background: #fff;
+}
+
 
 #map {
     position: relative;
