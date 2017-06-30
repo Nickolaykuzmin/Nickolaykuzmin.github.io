@@ -4036,7 +4036,7 @@ body textarea:required:valid {
 #ten .cart_item {
     background: url('../img/ooo_03.png') no-repeat;
     padding: 60px 20px 40px;
-    max-height: 386px;
+    max-height: 384px;
 }
 
 #ten .cart_item a {
@@ -5397,7 +5397,7 @@ body textarea:required:valid {
 
 @media only screen and (max-width:1199px) {
     #ten .cart_item {
-        max-height: inherit
+        max-height: inherit;
     }
     #reviews .review_item {
         max-height: inherit;
