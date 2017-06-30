@@ -46,10 +46,10 @@
       <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="3042" column="29" lean-forward="false" selection-start-line="3042" selection-start-column="29" selection-end-line="3042" selection-end-column="29" />
+            <state relative-caret-position="237">
+              <caret line="3031" column="33" lean-forward="true" selection-start-line="3031" selection-start-column="33" selection-end-line="3031" selection-end-column="33" />
               <folding>
-                <marker date="1498814538000" expanded="true" signature="162011:162020" ph="{...}" />
+                <marker date="1498819886000" expanded="true" signature="162183:162192" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -122,8 +122,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -180,7 +181,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -296,7 +296,7 @@
       <workItem from="1498733899169" duration="21000" />
       <workItem from="1498735089543" duration="3072000" />
       <workItem from="1498744577309" duration="2063000" />
-      <workItem from="1498811947944" duration="1493000" />
+      <workItem from="1498811947944" duration="1980000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1498737020176</created>
@@ -309,10 +309,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16517000" />
+    <option name="totallyTimeSpent" value="17004000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416997" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -375,7 +375,7 @@
         <state relative-caret-position="58698">
           <caret line="3261" column="44" lean-forward="false" selection-start-line="3261" selection-start-column="44" selection-end-line="3261" selection-end-column="44" />
           <folding>
-            <marker date="1498814538000" expanded="true" signature="162011:162020" ph="{...}" />
+            <marker date="1498819886000" expanded="true" signature="162183:162192" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -398,7 +398,7 @@
         <state relative-caret-position="58698">
           <caret line="3261" column="44" lean-forward="false" selection-start-line="3261" selection-start-column="44" selection-end-line="3261" selection-end-column="44" />
           <folding>
-            <marker date="1498814538000" expanded="true" signature="162011:162020" ph="{...}" />
+            <marker date="1498819886000" expanded="true" signature="162183:162192" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -652,10 +652,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="3042" column="29" lean-forward="false" selection-start-line="3042" selection-start-column="29" selection-end-line="3042" selection-end-column="29" />
+        <state relative-caret-position="237">
+          <caret line="3031" column="33" lean-forward="true" selection-start-line="3031" selection-start-column="33" selection-end-line="3031" selection-end-column="33" />
           <folding>
-            <marker date="1498814538000" expanded="true" signature="162011:162020" ph="{...}" />
+            <marker date="1498819886000" expanded="true" signature="162183:162192" ph="{...}" />
           </folding>
         </state>
       </provider>

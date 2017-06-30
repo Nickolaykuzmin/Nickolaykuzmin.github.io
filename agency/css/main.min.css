@@ -3024,6 +3024,13 @@
     }
 }
 
+#two input:hover::-webkit-input-placeholder{
+    color: #fff !important;
+}
+
+#two input:hover{
+    border-bottom: 1px solid #fff !important;
+}
 @keyframes slideInRight {
     0% {
         -webkit-transform: translateX(100%);
@@ -3938,9 +3945,9 @@ body textarea:required:valid {
 #reviews .review_item {
     max-height: 560px;
     min-height: 560px;
-    -webkit-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0px 0px 11px rgba(204, 204, 204, 0.52);
     padding: 25px;
-    box-shadow: 0 0 5px #ccc;
+    box-shadow: 0px 0px 11px rgba(204, 204, 204, 0.52);
     margin-bottom: 30px
 }
 
