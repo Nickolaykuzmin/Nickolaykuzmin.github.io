@@ -3025,7 +3025,7 @@
 }
 
 .list_cart_item li{
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 #two input:hover::-webkit-input-placeholder,#steps input:hover::-webkit-input-placeholder{
@@ -3382,8 +3382,9 @@ body textarea:required:valid {
 }
 
 #carts .cart_item {
-    background: url('../img/ooo_03.png') no-repeat;
     padding: 25px 15px;
+    background: url('../img/ooo_03.png') no-repeat top center;
+
     max-height: 513px;
 }
 
@@ -3403,7 +3404,7 @@ body textarea:required:valid {
 }
 
 .list_cart_item{
-    padding: 20px 17px;
+    padding: 20px 17px 0;
 }
 
 #carts .cart_item .head_cart_item h4 {
@@ -5557,8 +5558,10 @@ body textarea:required:valid {
     }
     #one .register_item .title p {
         font-size: 12px;
+        line-height: 1.3;
         text-align: center;
         font-weight: 400;
+        color: #2c4058;
     }
     #two {
         padding-top: 50px;
@@ -6560,9 +6563,6 @@ body textarea:required:valid {
         margin-bottom: 20px
     }
 
-    #carts .cart_item{
-        background: url('../img/ooo_03.png') no-repeat top center;
-    }
 
     #carts .cart_item .list_cart_item li,
     #carts .cart_item .list_cart_item span {
