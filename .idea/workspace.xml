@@ -46,10 +46,10 @@
       <file leaf-file-name="main.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="3031" column="33" lean-forward="true" selection-start-line="3031" selection-start-column="33" selection-end-line="3031" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="3030" column="89" lean-forward="false" selection-start-line="3030" selection-start-column="89" selection-end-line="3030" selection-end-column="89" />
               <folding>
-                <marker date="1498819886000" expanded="true" signature="162183:162192" ph="{...}" />
+                <marker date="1498820242000" expanded="true" signature="162327:162336" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,7 +67,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>register_item{</find>
       <find>#carts p</find>
       <find>#one .one_title</find>
       <find>#ten .ten_title</find>
@@ -97,6 +96,7 @@
       <find>#top_header .form_resp .call_order .content_form input</find>
       <find>footer</find>
       <find>input</find>
+      <find>input:hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -296,7 +296,7 @@
       <workItem from="1498733899169" duration="21000" />
       <workItem from="1498735089543" duration="3072000" />
       <workItem from="1498744577309" duration="2063000" />
-      <workItem from="1498811947944" duration="1980000" />
+      <workItem from="1498811947944" duration="2303000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1498737020176</created>
@@ -309,7 +309,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17004000" />
+    <option name="totallyTimeSpent" value="17327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="0" />
@@ -321,7 +321,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.339404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -375,7 +375,7 @@
         <state relative-caret-position="58698">
           <caret line="3261" column="44" lean-forward="false" selection-start-line="3261" selection-start-column="44" selection-end-line="3261" selection-end-column="44" />
           <folding>
-            <marker date="1498819886000" expanded="true" signature="162183:162192" ph="{...}" />
+            <marker date="1498820242000" expanded="true" signature="162327:162336" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -398,7 +398,7 @@
         <state relative-caret-position="58698">
           <caret line="3261" column="44" lean-forward="false" selection-start-line="3261" selection-start-column="44" selection-end-line="3261" selection-end-column="44" />
           <folding>
-            <marker date="1498819886000" expanded="true" signature="162183:162192" ph="{...}" />
+            <marker date="1498820242000" expanded="true" signature="162327:162336" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -652,10 +652,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agency/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="3031" column="33" lean-forward="true" selection-start-line="3031" selection-start-column="33" selection-end-line="3031" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="3030" column="89" lean-forward="false" selection-start-line="3030" selection-start-column="89" selection-end-line="3030" selection-end-column="89" />
           <folding>
-            <marker date="1498819886000" expanded="true" signature="162183:162192" ph="{...}" />
+            <marker date="1498820242000" expanded="true" signature="162327:162336" ph="{...}" />
           </folding>
         </state>
       </provider>
