@@ -1,0 +1,96 @@
+@import "bourbon"
+@import "vars.sass"
+
+//Load Libs SASS
+@import "app/libs/animate/animate.sass"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//Custom Styles Here
+
+body
+	background-color: #ecf0f2
+
+#form
+	width: 350px
+	background: #ffffff
+	border: 1px solid #cdd9df
+	border-radius: 6px
+	box-shadow: 0 0 3px #ccc
+	top: 50%
+	left: 50%
+	position: absolute
+	margin: 175px 0 0 -175px
+	// height: 280px
+	.footer_form
+		margin-top: 30px
+		background: #f0f5f7
+		border-top: 1px solid #dde0e8
+		height: 70px
+		padding: 20px
+		label
+			font-family: 'HelveticaRegular',sans-serif
+			font-size: 11px
+		#send
+			background: #b9dff2
+			border-radius: 20px
+			border: 1px solid #b9dff2
+			color: #fff
+			font-family: "HelveticaBold",sans-serif
+			font-size: 13px
+			padding: 5px 25px
+			float: right
+	.head_form
+		padding: 20px
+		label
+			font-size: 14px
+			font-family: 'HelveticaRegular',sans-serif
+		.l_pass
+			display: inline-block
+			width: 30%
+		.l_forgot
+			text-align: right
+			display: inline-block
+			width: 68%
+			font-size: 11px
+			a
+				text-decoration: none
+				color: #d6dcdf
+		input[type='text'],input[type='email'],input[type='phone'],input[type='password']
+			width: 100%
+			font-family: 'HelveticaRegular',sans-serif
+			font-size: 14px
+			margin-bottom: 15px
+			border: 1px solid #d6dcdf
+			border-radius: 0
+			box-shadow: 0 0 5px #ccc
+			padding: 5px
+			&:-webkit-auto-fill
+				background-color: none
+			&:focus
+				box-shadow: 0 0 5px #ecf5fb
+
+
+//ALWAYS END
+@import "media"
