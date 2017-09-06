@@ -4,14 +4,37 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px)
+	#form button,#discount button
+		height: 51px
+		font-size: 12px
+		padding: 10px 15px
 	#header .phone_block
 		margin-left: 0
 	#header .location
 		min-width: inherit
-
+	#baner 
+		.baner_block
+			width: inherit
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px)
+	#footer a.button
+		font-size: 10px
+	.add_links
+		display: none
+	#discount .form-group input[type=email], #discount .form-group input[type=text]
+		margin-bottom: 20px
+	#tabs .tab-content .packets .packet_item 
+		text-align: center
+
+	#tabs .tab-content .packets h3
+		text-align: center
+
+	#tabs .tab-content .packets .packet_item img
+		margin-bottom: 20px
+
+	#tabs .tabs_items li
+		padding: 5px 10px
 	#nav
 		display: none
 	#header 
@@ -69,6 +92,27 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px)
+	#footer
+		text-align: center
+	#footer ul
+		float: none !important
+	#footer h5:nth-child(1)
+		margin-top: 20px
+		
+	#certificates
+		text-align: center
+	#certificates .cert_image img
+		margin-bottom: 20px
+		display: inline-block
+	.tab-content img
+		display: inline-block
+	.tab-content
+		text-align: center
+
+	#tabs .tab-content .block_content ul li
+		list-style-position: inside
+	#tabs .tab-content .block_content h3
+		margin-top: 20px
 	.header-widget 
 		float: none
 		text-align: center
@@ -82,10 +126,19 @@
 			&:after
 				content: none
 
+@media only screen and (max-width:674px)
+	#tabs .tabs_items li
+		display: block
+		text-align: center
+		width: 100%
+
+	#tabs .tabs_items
+		display: block
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px)
-	/**/
+@media only screen and (max-width : 520px)
+	#baner .baner_block h1, #baner .baner_block h3
+		font-size: rem(20px)
 
 
 /* Custom, iPhone Retina */
