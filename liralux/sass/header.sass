@@ -1,0 +1,426 @@
+@import "bourbon"
+@import "vars.sass"
+
+.jPanelMenu
+	#jPanelMenu-menu
+		background: #000
+
+#jPanelMenu-menu li a
+  display: block
+  padding: 12px 20px !important
+  background-color: #262626
+  color: #f0f0f0
+  font-weight: 500
+  -webkit-transition: all 0.1s ease-in-out
+  -moz-transition: all 0.1s ease-in-out
+  -o-transition: all 0.1s ease-in-out
+  -ms-transition: all 0.1s ease-in-out
+  transition: all 0.1s ease-in-out
+  font-weight: 600
+  outline: none
+  text-transform: none
+  text-shadow: none
+
+#jPanelMenu-menu li.search_icon
+	display: none
+
+
+.menu-responsive
+	display: none
+/* Shutter Out Horizontal
+
+.hvr-shutter-out-horizontal
+  display: inline-block
+  vertical-align: middle
+  -webkit-transform: perspective(1px) translateZ(0)
+  transform: perspective(1px) translateZ(0)
+  position: relative
+  -webkit-transition-property: color
+  transition-property: color
+  -webkit-transition-duration: 0.3s
+  transition-duration: 0.3s
+  &:before
+    content: ""
+    position: absolute
+    z-index: -1
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background: #2098D1
+    -webkit-transform: scaleX(0)
+    transform: scaleX(0)
+    -webkit-transform-origin: 50%
+    transform-origin: 50%
+    -webkit-transition-property: transform
+    transition-property: transform
+    -webkit-transition-duration: 0.3s
+    transition-duration: 0.3s
+    -webkit-transition-timing-function: ease-out
+    transition-timing-function: ease-out
+  &:hover, &:focus, &:active
+    color: white
+  &:hover:before, &:focus:before, &:active:before
+    -webkit-transform: scaleX(1)
+    transform: scaleX(1)
+
+.header-widget li
+  list-style: none
+  display: inline-block
+  vertical-align: middle
+  margin-right: 20px
+  padding-right: 35px
+  line-height: 24px
+  position: relative
+
+.header-widget li i
+  float: left
+  display: inline-block
+  color: #666
+  font-size: 34px
+  width: 35px
+  position: relative
+  margin-top: 8px
+  margin-right: 18px
+  text-align: center
+
+.sl-icon-call-in:before
+    content: "\e047"
+
+.header-widget 
+    margin-top: 8px
+    float: right
+    padding-left: 0
+
+@mixin font-size($sizeValue: 1.6) 
+  font-size: ($sizeValue * 10) + px
+  font-size: $sizeValue + rem
+
+@mixin form_layout
+	button
+		background-color: #f7941d
+		text-transform: uppercase
+		font-size: 15px
+		text-align: center
+		border: none
+		border-radius: 0
+		padding: 15px 15px
+		color: #fff
+	.form-group
+		width: 100%
+		input[type='email'],input[type='text']
+			border: none
+			border-radius: 0
+			background: #fff
+			font-family: 'HelveticaNeueCyrLight',sans-serif
+			font-size: 15px
+			padding: 15px 10px
+			color: #ccc
+			width: 100%
+
+p
+	margin: 0 !important
+
+.clear
+	padding: 0
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "HelveticaMedium", sans-serif !important
+	overflow-x: hidden
+
+.hidden
+	display: none
+
+.header-widget li:last-child:after
+	content: none
+
+.button.border
+	background: none
+	text-decoration: none
+	color: #0081db
+	border: 2px solid #0081db
+	padding: 14px 22px
+	text-transform: uppercase
+	font-weight: bold
+.button.border:hover
+	color: #fff
+
+.header-widget li:last-child
+  margin-right: 0
+  padding-right: 0
+
+.header-widget li
+  span
+    &.title
+      display: block
+      color: #333
+    &.data
+      color: #808080
+  &:after
+    position: absolute
+    height: 48px
+    content: ""
+    display: inline-block
+    width: 1px
+    background-color: #e0e0e0
+    -webkit-transform: translateY(-50%)
+    -moz-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    transform: translateY(-50%)
+    top: 50%
+    right: 0
+
+#header
+	border-top: 4px solid #0081db
+	padding-top: 40px
+	.phone_block
+		border-right: 1px solid #ccc
+		position: relative
+		margin-left: 70px
+		&:before
+			content: " "
+			position: absolute
+			width: 40px
+			height: 40px
+			background-repeat: no-repeat
+			background-image: url('../img/liralux_promo_page_1440_06.jpg')
+		p:first-child
+			color: #000000
+		p
+			padding-left: 50px
+		p,a
+			font-family: 'HelveticaLight',sans-serif
+			color: #ccc
+	.location
+		min-width: 300px
+		margin-left: 20px
+		border-right: 1px solid #ccc
+		&:before
+			content: " "
+			position: absolute
+			background-repeat: no-repeat
+			width: 40px
+			height: 40px
+			background-image: url('../img/liralux_promo_page_1440_03.png')
+		p:first-child
+			color: #000000
+		p
+			font-family: 'HelveticaLight',sans-serif
+			color: #ccc
+			padding-left: 50px
+	.button_sender
+		a.write_us
+			padding: 10px 34px
+			max-width: 200px
+			font-weight: bold
+			float: right
+			border: 2px solid #0081db
+			color: #0081db
+			font-size: 15px
+			text-align: center
+			text-transform: uppercase
+			text-decoration: none
+	#nav
+		border-top: 1px solid #ccc
+		margin-top: 30px
+		li
+			padding: 15px
+			display: inline-block
+			&:last-child
+				padding-right: 0
+			a
+				font-family: 'HelveticaNeueCyrMedium', sans-serif
+				font-size: 14px
+				text-transform: uppercase
+				color: #000
+				text-decoration: none 
+		li.search_icon
+			float: right
+			input
+				opacity: 0
+#baner
+	background: url('../img/liralux_promo_page_1440_14.jpg') no-repeat center center
+	background-size: cover
+	min-height: 590px
+	.baner_block
+		text-align: center
+		margin: 0 auto
+		width: 1030px
+		margin-top: 200px
+		background: #fff
+		opacity: .8
+		border-top: 3px solid #ff1e0d
+		padding: 20px
+		h1,h3
+			text-transform: uppercase
+			font-family: 'HelveticaNeueCyrMedium',sans-serif
+			font-size: 28px
+		.red
+			color: #ff1e0d
+#tabs
+	background: #f8f8f8
+	padding-top: 30px
+	.tabs_items
+		margin-bottom: 30px
+		display: flex
+		flex-direction: row
+		justify-content: center
+		li
+			padding: 5px 30px
+			a	
+				text-transform: uppercase
+				color: #333333
+				text-decoration: none
+				font-size: 14px
+		li.active
+			background-color: #666666
+			a
+				color: #fff
+	.tab-content
+		padding-bottom: 30px
+		.block_content
+			margin-bottom: 20px
+			h3
+				text-transform: uppercase
+				margin-top: 0
+				margin-bottom: 20px
+				font-size: 24px
+			p
+				font-family: 'HelveticaNeueCyrLight',sans-serif
+				font-size: 16px
+				color: #666666
+			ul
+				padding: 0 20px
+				li
+					line-height: 3.5
+					list-style: disc
+		.packets
+			border-top: 1px solid #ccc
+			padding: 30px 0
+			h3
+				margin-bottom: 20px
+				font-size: 18px
+			.packet_item
+				margin-top: 30px
+				.pack_content
+					margin-left: 20px
+					h3
+						font-size: 18px
+						margin-top: 0
+					p
+						font-family: 'HelveticaNeueCyrLight',sans-serif
+
+#form
+	background: url('../img/liralux_promo_page_1440_20.jpg') no-repeat center center
+	background-size: cover
+	padding: 50px
+	text-align: center
+	@include form_layout
+#certificates
+	padding: 40px 0
+	.cert_image
+		img
+			background-color: rgba(204, 204, 204, 0.25)
+			padding: 20px 25px
+	h3
+		font-size: 22px
+		margin-top: 0
+		padding-bottom: 30px
+		border-bottom: 1px solid #cccccc
+	p
+		padding-top: 20px
+		font-family: 'HelveticaNeueCyrLight',sans-serif
+		font-size: 16px
+		color: #666666
+#discount
+	padding: 50px
+	background-color: #0081db
+	color: #fff
+	text-align: center
+	h3
+		font-size: 28px
+	p
+		font-family: 'HelveticaNeueCyrLight',sans-serif
+		font-size: 16px
+		padding-bottom: 40px
+		padding-top: 20px
+	@include form_layout
+
+.button.social-btn
+  margin-top: 20px
+  position: relative
+  background-color: #3b5998
+  top: 4px
+
+.footer-links li a:hover 
+    padding-left: 16px
+    color: #fff !important
+
+.footer-links a
+	transition: all 0.2s ease-in-out
+
+#footer a.button:hover 
+    background-color: #fff
+    color: #333
+
+
+a.button
+  background-color: #666
+  top: 0
+  padding: 10px 18px
+  color: #fff
+  text-transform: uppercase
+  position: relative
+  font-size: 13px
+  font-weight: 600
+  display: inline-block
+  -webkit-transition: all 0.2s ease-in-out
+  -moz-transition: all 0.2s ease-in-out
+  -ms-transition: all 0.2s ease-in-out
+  -o-transition: all 0.2s ease-in-out
+  transition: all 0.2s ease-in-out
+  cursor: pointer
+
+#footer
+	background-color: #000000
+	padding: 40px 0 20px
+	a
+		color: #d1dddd
+		text-decoration: none
+	li
+		a
+			color: #666
+	h5
+		margin-bottom: 20px	
+		text-transform: uppercase
+		color: #fff
+	p
+		color: #666
+		font-family: 'HelveticaNeueCyrLight',sans-serif
+	.btn_face
+		margin-top: 20px
+		padding: 10px 9px
+		text-align: center
+		max-width: 290px
+		background-color: #3b5998
+		img
+			padding-right: 10px
+		a
+			display: block
+			text-decoration: none
+			color: #fff
+			text-transform: uppercase
+	.silver
+		color: #666
+	.bottom_footer
+		margin-top: 50px
+		border-top: 1px solid #333333
+		p
+			color: #dddddd
+			margin-top: 20px !important
+			img
+				display: inline-block

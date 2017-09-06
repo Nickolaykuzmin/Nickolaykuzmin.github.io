@@ -1,0 +1,121 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+	#header .phone_block
+		margin-left: 0
+	#header .location
+		min-width: inherit
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+	#nav
+		display: none
+	#header 
+		.logo 
+			text-align: center
+			margin-bottom: 20px
+			img
+				display: inline-block
+
+	.menu-responsive
+		color: #fff
+		display: block
+		text-transform: uppercase
+		font-weight: 600
+		float: left
+		background-color: #666
+		position: relative
+		width: 100%
+		margin: 0px 0 25px 0
+		-webkit-transition: all 0.2s ease-in-out
+		-moz-transition: all 0.2s ease-in-out
+		-o-transition: all 0.2s ease-in-out
+		-ms-transition: all 0.2s ease-in-out
+		transition: all 0.2s ease-in-out
+
+	.menu-responsive i
+		padding: 20px
+		margin: 0
+		font-size: 18px
+		font-weight: 500
+		cursor: pointer
+		width: 100%
+	.responsive-search input
+		margin-bottom: 0
+		border: none
+		background-color: rgba(255, 255, 255, 0.15)
+		color: #fff
+		padding: 15px 22px
+		width: 100%
+	
+	.menu-responsive i.search-trigger
+		position: absolute
+		right: 0
+		background: rgba(255, 255, 255, 0.15)
+		width: 57px
+		z-index: 999
+		top: 0
+	.responsive-search
+		display: none
+	#header 
+		.button_sender 
+			margin-top: 25px
+			a.write_us
+				float: none
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	.header-widget 
+		float: none
+		text-align: center
+		li.with-btn
+			width: 100%
+			text-align: center
+	.header-widget 
+		li
+			margin: 20px 15px 5px 0px
+			padding: 0
+			&:after
+				content: none
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
