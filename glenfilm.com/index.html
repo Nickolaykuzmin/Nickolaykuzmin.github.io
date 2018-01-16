@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<title>GlenFilm</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    <base href="" />
+    <meta charset="UTF-8" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="assets/template/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="assets/template/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/template/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/template/img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	
+	<!-- first screen css -->
+	<style>.myHeader{height:100vh}.myHeader .topLine .menu li a.mPS2id-highlight{color:#4ed7ff}@media only screen and (min-width: 768px){.myHeader .topLine .menu ul{display: block!important}}.myHeader .topLine .socialIcons .icon{width:45px;height:45px;border:2px solid #fff;-webkit-border-radius:10em;border-radius:10em;display:inline-block;text-align:center;line-height:45px;margin-right:15px;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}.myHeader .topLine .socialIcons .icon:hover{color:#4ed7ff;border-color:#4ed7ff}.myHeader,.myHeader a{color:#fff}.myHeader .topLine .socialIcons .icon:last-child{margin-right:0}.myHeader .topLine .socialIcons .icon i{font-size:24px}.myHeader{background-image:url(assets/template/img/headerBg.jpg);background-repeat:no-repeat;background-position:center;-webkit-background-size:cover;background-size:cover;}.myHeader a.accentColor{color:#4ed7ff;border:2px solid #4ed7ff;-webkit-border-radius:10em;border-radius:10em;padding:10px 20px}.myHeader .topLine{position:fixed;width:100%;-webkit-transition:background .3s ease;-o-transition:background .3s ease;transition:background .3s ease;z-index:3}.myHeader .topLine.scrollClass{background-color:rgba(0,0,0,.6)}.myHeader .topLine.scrollClass .fullHd{border-bottom-color:transparent}.myHeader .topLine .fullHd{padding:0 15px 20px;border-bottom:1px solid #dedede}.myHeader .topLine .logo .img-wrap{width:90%;position:relative;top:20px}.myHeader .topLine .menu{text-align:center;position:relative;top:8px;padding-left:20px}.myHeader .topLine .menu .socialIcons{display:none}.myHeader .topLine .menu li{display:inline-block;margin-right:70px}.myHeader .topLine .menu li:last-child{margin-right:0}.myHeader .topLine .menu li a{-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}.myHeader .topLine .menu li a.accentColor:hover{background-color:#4ed7ff;color:#fff}.myHeader .topLine .menu li a:hover{color:#4ed7ff}.myHeader .topLine .menu .phone{position:relative;top:15px;margin-right:0;text-align:left}.myHeader .topLine .menu .phone a{display:block}.myHeader .topLine .socialIcons{text-align:right;margin-top:25px}.myHeader .content{height:100%;display:flex;align-items: center;padding-top:5%}.myHeader .content .items{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.myHeader .content .items.visibleMobile{display:none}.myHeader .content .items .item{text-align:center}.myHeader .content .items .item .iconWrap{display:inline-block;margin-bottom:5px;width:49px;min-height:49px}.myHeader .content .items .item .text.visible480,.myHeader .content .left .pulse{display:none}.myHeader .content .items .item .text{line-height:1.3}.myHeader .content .left{padding-left:12%}.myHeader .content .left h1{margin-bottom:4%}.myHeader .content .left .quotes{margin-bottom:7%}.myHeader .content .left .quotes span{font-size:200px;line-height:0;position:relative;bottom:-60px;margin-right:20px;color:#4ed7ff;font-family:RoundsBlack,sans-serif}.myHeader .content .left .doubleBtns{margin-bottom:5%;position:relative}.myHeader .content .left .doubleBtns.on .btn.drop::after{-webkit-transform:rotate(-180deg);-ms-transform:rotate(-180deg);transform:rotate(-180deg)}.myHeader .content .left .doubleBtns .btn.drop{position:relative;color:#4ed7ff}.myHeader .content .left .doubleBtns .btn.drop::after{position:absolute;-webkit-transition:-webkit-transform .3s ease;-o-transition:transform .3s ease;transition:transform .3s ease;transition:transform .3s ease,-webkit-transform .3s ease;content:"\f0d7";right:30px;top:15px;font-size:30px;font-family:FontAwesome}.myHeader .content .left .doubleBtns .dropDown{position:absolute;width:305px;z-index:1;top:100%;left:58.5%;-webkit-transform:translateX(-49%);-ms-transform:translateX(-50%);transform:translateX(-50%);padding:20px 25px;background-color:#4ed7ff;-webkit-transition:opacity .3s ease;-o-transition:opacity .3s ease;transition:opacity .3s ease;display:none}.myHeader .content .left .doubleBtns .dropDown.visible{display:block}.myHeader .content .left .doubleBtns .dropDown .pretty{display:block;margin-bottom:15px;color:#fff;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}.myHeader .content .left .doubleBtns .dropDown .pretty:last-child{margin-bottom:0}.myHeader .content .left .doubleBtns .dropDown .pretty:hover{color:#464646}.myHeader .content .right .pulse{position:absolute;background-color:rgba(255,255,255,.3);top:70px;left:40px;width:170px;height:170px;line-height:190px;-webkit-border-radius:10em;border-radius:10em;text-align:center;color:#4ed7ff}.myHeader .content .right .pulse::after,.myHeader .content .right .pulse::before{content:'';display:block;position:absolute;border:1px solid #fff;left:-20px;right:-20px;top:-20px;bottom:-20px;-webkit-border-radius:10em;border-radius:10em;-webkit-animation:animate 1.5s linear infinite;animation:animate 1.5s linear infinite;opacity:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.myHeader .content .right .pulse::after{-webkit-animation-delay:.5s;animation-delay:.5s}.myHeader .content .right .pulse i{font-size:55px;margin-left:15px}.myHeader .content .right .pulse .h4{position:absolute;top:-15px;left:44%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);color:#fff;white-space:nowrap}.myHeader .content .right .pulse .h4 span{margin-left:50px}@media only screen and (max-width:1919px){.myHeader .content{padding-top:6%}.myHeader .content .right .pulse{width:150px;height:150px;line-height:165px}.myHeader .content .right .pulse .h4{top:-12px;left:45%}.myHeader .content .right .pulse i{font-size:45px}.myHeader .content .left{padding-left:0}.myHeader .content .left h1{margin-bottom:5%}.myHeader .content .left .quotes span{font-size:140px;bottom:-40px;margin-right:10px}.myHeader .content .left .doubleBtns{margin-bottom:7%}.myHeader .content .left .doubleBtns .btn.drop::after{top:9px;font-size:25px}.myHeader .content .left .doubleBtns .dropDown{width:270px;left: 58.5%}.myHeader .topLine .fullHd{padding:0 15px 23px}.myHeader .topLine .logo .img-wrap{width:180px;top:20px}.myHeader .topLine .menu{padding-left:0;padding-right:10px}.myHeader .topLine .menu li{margin-right:15px}.myHeader .topLine .menu li.phone{top:12px}.myHeader .topLine .socialIcons{margin-top:20px}.myHeader .topLine .socialIcons .icon{width:40px;height:40px;line-height:40px;margin-right:10px}.myHeader .topLine .socialIcons .icon i{font-size:18px}}@media only screen and (max-width:1200px){.myHeader{}.myHeader a.accentColor{border:none;padding:0;color:#fff}.myHeader .content{}.myHeader .content .right .pulse{width:140px;height:140px;line-height:160px}.myHeader .content .right .pulse .h4{top:-10px;left:47%}.myHeader .content .right .pulse .h4 span{margin-left:45px}.myHeader .content .right .pulse i{font-size:45px}.myHeader .content .left .quotes span{font-size:100px;bottom:-30px;margin-right:10px}.myHeader .content .left .doubleBtns{margin-bottom:10%}.myHeader .content .left .doubleBtns .btn.drop::after{top:7px;right:15px;font-size:20px}.myHeader .content .left .doubleBtns .dropDown{width:230px;left:57%}.myHeader .topLine .customPadding{padding-left:0;padding-right:0}.myHeader .topLine .fullHd{padding-bottom:20px}.myHeader .topLine .logo .img-wrap{top:20px;width:150px}.myHeader .topLine .menu{padding-left:0;padding-right:5px;top:5px}.myHeader .topLine .menu li{margin-right:15px}.myHeader .topLine .socialIcons .icon{width:35px;height:35px;line-height:35px;margin-right:5px}.myHeader .topLine .socialIcons .icon i{font-size:16px}}@media only screen and (max-width:992px){.myHeader{}.myHeader{}.myHeader .content{}.myHeader .content .items.hiddenMobile{display:none}.myHeader .content .items.visibleMobile{display:block}.myHeader .content .items.visibleMobile .item{margin-bottom:30px}.myHeader .content .right .pulse{width:120px;height:120px;line-height:135px;top:50px;left:30px}.myHeader .content .right .pulse .h4{top:-10px}.myHeader .content .right .pulse .h4 span{margin-left:40px}.myHeader .content .right .pulse i{font-size:40px}.myHeader .content .left .doubleBtns .btn.drop::after{top:5px;right:20px;font-size:20px}.myHeader .content .left .doubleBtns .dropDown{width:195px;left:63%}.myHeader .topLine .customPadding{padding-left:15px;padding-right:15px}.myHeader .topLine .menu{text-align:right;top:2px;padding-right:0}.myHeader .topLine .menu li{margin-right:10px}.myHeader .topLine .logo .img-wrap{width:120px}}@media only screen and (max-width:767px){.myHeader .topLine .menu li a.mPS2id-highlight{color:#000}.myHeader{height:auto;background-image:url(assets/template/img/bgMobile.jpg);background-repeat:repeat;-webkit-background-size:inherit inherit;background-size:inherit}.myHeader .content{padding:100px 0 30px}.myHeader .content .left,.myHeader .topLine .noPL{padding-left:15px}.myHeader .content .left .pulse{display:block;position:relative;margin:0 auto 50px;background-color:#7a888c;width:100px;height:100px;line-height:110px;-webkit-border-radius:10em;border-radius:10em;text-align:center;color:#4ed7ff}.myHeader .content .left .pulse::after,.myHeader .content .left .pulse::before{content:'';display:block;position:absolute;border:1px solid #7a888c;left:-20px;right:-20px;top:-20px;bottom:-20px;-webkit-border-radius:10em;border-radius:10em;-webkit-animation:animate 1.5s linear infinite;animation:animate 1.5s linear infinite;opacity:0;-webkit-backface-visibility:hidden;backface-visibility:hidden}.myHeader .content .left .pulse::after{-webkit-animation-delay:.5s;animation-delay:.5s}.myHeader .content .left .pulse i{font-size:35px;margin-left:10px}.myHeader .content .left .pulse .h4{position:absolute;top:-7px;left:45%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);color:#fff;white-space:nowrap}.myHeader .content .left .pulse .h4 span{margin-left:35px}.myHeader .content .left h1{margin-bottom:30px}.myHeader .content .left .quotes{margin-bottom:50px}.myHeader .content .left .doubleBtns{margin-bottom:40px}.myHeader .content .left .doubleBtns .dropDown{left:50%}.myHeader .topLine{display:block}.myHeader .topLine .menu{position:initial}.myHeader .topLine .logo .img-wrap{width:150px;top:12px;display:inline-block;left:-15px}.myHeader .topLine.scrollClass .menu ul{top:22px}.myHeader .topLine .fullHd{margin-left:15px;margin-right:15px}.myHeader .topLine .toggle-mnu{display:block}.myHeader .topLine .menu ul{display:none;position:absolute;top:21px;right:0;width:250px;text-align:right;background-color:#4ed7ff;margin:0;padding:15px 5px}.myHeader .topLine .menu ul li{display:block;margin:0;line-height:0}.myHeader .topLine .menu ul li.phone{top:0;text-align:right}.myHeader .topLine .menu ul li a{line-height:20px;display:block;padding:2px 10px;font-size:14px;color:#fff;margin-bottom:10px}.myHeader .topLine .menu ul li a:hover{color:#000}.myHeader .topLine .menu ul .socialIcons{padding-right:10px;margin-top:15px}.myHeader .topLine .menu ul .socialIcons .icon{margin-right:15px}.myHeader .topLine .menu ul .socialIcons .icon:hover{color:#000;border-color:#000}.myHeader .topLine .menu ul .socialIcons .icon:last-child{margin-right:0}}@media (min-width: 2000px){.myHeader .content{padding-top:0%}}@media only screen and (max-width:480px){.myHeader .content .left .pulse{margin-bottom:40px}.myHeader .content .left .quotes{margin-bottom:30px}.myHeader .content .left .quotes span{display:none}.myHeader .content .left h1{margin-bottom:25px}.myHeader .content .left .doubleBtns .dropDown{width:250px}.myHeader .content .items.visibleMobile .item{min-height:115px;margin-bottom:20px}.myHeader .content .visibleMobile .need50{width:50%}.myHeader .topLine .menu ul{width:290px}}</style>
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+    <div class="preloader"><div class="pulsePreloader"></div></div>
+	
+	<header class="myHeader" id="videoHere">
+		<div class="overlay">
+			<div id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/h7Mk5vgGmog',quality:'hd720',containment:'#videoHere',autoPlay:true, mute:true, startAt:0,showControls: false, optimizeDisplay: true}"></div>
+		</div>
+		<div class="topLine">
+			<div class="container fullHd">
+				<div class="row">
+					<div class="toggle-mnu"><span></span></div>
+					<div class="col-sm-2">
+						<a href="index.html" class="logo"><div class="img-wrap"><img src="assets/template/img/logo.png" alt="img"></div></a>
+					</div>
+					<div class="col-md-8 col-sm-10 customPadding">
+						<nav class="menu">
+							<ul>
+								<li><a href="index.html#solut" class="needScroll">Услуги</a></li>
+								<li><a href="index.html#conceptId" class="needScroll">О нас</a></li>
+								<li><a href="index.html#portfol" class="needScroll">Портфолио</a></li>
+								<li><a href="index.html#contac" class="needScroll">Контакты</a></li>
+								<li><a href="index.html#consultation" class="accentColor popup">Консультация режиссёра</a></li>
+								<li class="phone CirceBold">
+									<a href="tel:+380636027276">+38 063 602 72 76</a>
+									<a href="mailto:info@glenfilm.com">info@glenfilm.com</a>
+								</li>
+								<div class="socialIcons visible-xs">
+								    <a href="https://www.facebook.com/GlenFilm" target="_blank" class="icon"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/company/glenfilm" target="_blank" class="icon"><i class="fa fa-linkedin"></i></a><a href="https://www.youtube.com/user/GlenFilmProduction" target="_blank" class="icon"><i class="fa fa-youtube"></i></a>
+								</div>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-sm-2 hidden-xs hidden-sm">
+						<div class="socialIcons">
+							<a href="https://www.facebook.com/GlenFilm" target="_blank" class="icon"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/company/glenfilm" target="_blank" class="icon"><i class="fa fa-linkedin"></i></a><a href="https://www.youtube.com/user/GlenFilmProduction" target="_blank" class="icon"><i class="fa fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container width1550">
+				<div class="row">
+					<div class="col-sm-9 left">
+						<h1>Первая видеостудия<br>с маркетинговым подходом</h1>
+						<h3 class="h3 quotes"><span>&#8220;</span>Превратите зрителя в клиента</h3>
+						<div class="doubleBtns">
+							<button class="btn active">Получите консультацию <span class="needHide">режиссёра</span></button>
+							<button class="btn drop">Выберите <span class="hidden-sm hidden-xs">удобный</span> формат</button>
+							<div class="dropDown">
+								<a href="index.html#skypeForm" class="pretty popup">skype</a>
+								<a href="index.html#phoneForm" class="pretty popup">телефонный звонок</a>
+								<a href="index.html#emailForm" class="pretty popup">e-mail</a>
+							</div>
+						</div>
+						<a href="index.html" class="pulse" target="_blank">
+							<div class="h4">Посмотреть <span>showreel</span></div><i class="fa fa-play"></i>
+						</a>
+					</div>
+					<div class="col-sm-3 right hidden-xs">
+						<a data-fancybox="" href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="pulse">
+							<div class="h4">Посмотреть <span>showreel</span></div><i class="fa fa-play"></i>
+						</a>
+						<div class="hidden">
+							<div id="showReel">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+						<div class="items hiddenMobile">
+						    <article class="item">
+								<div class="iconWrap numb1"><img src="assets/template/img/headIcon1.png" alt="img"></div>
+								<div class="text RalewayExtraBold">обязательный<br>маркетинговый анализ</div>
+							</article><article class="item">
+								<div class="iconWrap numb2"><img src="assets/template/img/headIcon2.png" alt="img"></div>
+								<div class="text RalewayExtraBold">мониторинг<br>проекта онлайн</div>
+							</article><article class="item">
+								<div class="iconWrap numb3"><img src="assets/template/img/headIcon3.png" alt="img"></div>
+								<div class="text RalewayExtraBold">совместные<br>стратегические сессии</div>
+							</article><article class="item">
+								<div class="iconWrap numb4"><img src="assets/template/img/headIcon4.png" alt="img"></div>
+								<div class="text RalewayExtraBold">специализация<br>на бизнес-сегменте</div>
+							</article><article class="item">
+								<div class="iconWrap numb5"><img src="assets/template/img/headIcon5.png" alt="img"></div>
+								<div class="text RalewayExtraBold">строгое<br>соблюдение сроков</div>
+							</article>
+						</div>
+						<div class="items visibleMobile">
+						    <article class="item col-xs-4 need50">
+								<div class="iconWrap numb1"><img src="assets/template/img/headIcon1.png" alt="img"></div>
+								<div class="text RalewayExtraBold">обязательный<br>маркетинговый анализ</div>
+							</article>
+							<article class="item col-xs-4 need50">
+								<div class="iconWrap numb2"><img src="assets/template/img/headIcon2.png" alt="img"></div>
+								<div class="text RalewayExtraBold">мониторинг<br>проекта онлайн</div>
+							</article>
+							<article class="item col-xs-4 need50">
+								<div class="iconWrap numb3"><img src="assets/template/img/headIcon3.png" alt="img"></div>
+								<div class="text RalewayExtraBold">совместные<br>стратегические сессии</div>
+							</article>
+							<article class="item col-xs-6">
+								<div class="iconWrap numb4"><img src="assets/template/img/headIcon4.png" alt="img"></div>
+								<div class="text RalewayExtraBold">специализация<br>на бизнес-сегменте</div>
+							</article>
+							<article class="item col-xs-6">
+								<div class="iconWrap numb5"><img src="assets/template/img/headIcon5.png" alt="img"></div>
+								<div class="text RalewayExtraBold">строгое<br>соблюдение сроков</div>
+							</article>
+							
+						</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="whichTask">
+		<div class="container width1550">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="h1 text-center">Выбирайте с умом</div>
+				</div>
+			</div>
+			<div class="row items">
+				<div class="col-sm-6">
+					<article class="item number1">
+						<div class="iconWrap"><img src="assets/template/img/whichTaskIcon1.png" alt="img"></div>
+						<div class="h2">Чтобы убить время<br>за картинками</div>
+						<a href="index.html#portfol" class="btnSecond needScroll" id="goPortfolio">Смотрите портфолио<span class="hidden-xs hidden-sm">, не читая текст</span></a>
+					</article>
+				</div>
+				<div class="col-sm-6">
+					<article class="item">
+						<div class="iconWrap numb2"><img src="assets/template/img/whichTaskIcon2.png" alt="img"></div>
+						<div class="h2">Чтобы узнать,<br>как мы работаем</div>
+						<a href="index.html#solut" class="btnSecond needScroll" id="showSite"><span class="hidden-lg hidden-md">Читать далее</span><span class="hidden-xs hidden-sm">Спускайтесь вниз и смотрите портфолио</span></a>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="hiddenWrap">
+		<section class="solutions" id="solut">
+			<div class="container width1550">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h1 text-center">Решения для бизнеса</div>
+						<div class="doubleBtns text-center">
+							<button class="btn h4 active tab" id="number1">Решения «Single»</button>
+							<button class="btn h4 tab drop" id="number2">Комплексные решения</button>
+						</div>
+					</div>
+				</div>
+				<div class="tab-content">
+					<div class="tab-item number1">
+						<div class="row">
+							<div class="carousel hidden-xs">
+							    <div class="col-sm-3 item">
+									<div class="h3">Продажи</div>
+									<ul>
+<li><a class="popup" href="index.html#consultation">Рекламный ролик</a></li>
+<li><a class="popup" href="index.html#consultation">Продающий ролик</a></li>
+<li><a class="popup" href="index.html#consultation">Ролик для TV</a></li>
+<li><a class="popup" href="index.html#consultation">Видео-презентация</a></li>
+<li><a class="popup" href="index.html#consultation">Видео-кейс</a></li>
+<li><a class="popup" href="index.html#consultation">Видео-обзор</a></li>
+<li><a class="popup" href="index.html#consultation">Инфорграфический ролик</a></li>
+<li><a class="popup" href="index.html#consultation">Лендинг-пейдж видео</a></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="h3">Имидж</div>
+									<ul>
+<li><a class="popup" href="index.html#consultation">Корпоративный ролик / фильм</a></li>
+<li><a class="popup" href="index.html#consultation">Имиджевый кейс</a></li>
+<li><a class="popup" href="index.html#consultation">HR-ролик / фильм</a></li>
+<li><a class="popup" href="index.html#consultation">Документальный фильм</a></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="h3">Обучение</div>
+									<ul>
+<li><a class="popup" href="index.html#consultation">Ролик для персонала</a></li>
+<li><a class="popup" href="index.html#consultation">Ролик для клиентов</a></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="wrap">
+										<div class="h3">Решения для IT</div>
+										<ul>
+<li><a class="popup" href="index.html#consultation">Рекламный ролик</a></li>
+<li><a class="popup" href="index.html#consultation">Демонстрация ПО</a></li>
+<li><a class="popup" href="index.html#consultation">Видео-кейс</a></li>
+<li><a class="popup" href="index.html#consultation">Ролик для стартап-компаний</a></li>
+</ul>
+									</div>
+								</div>
+								
+								
+							</div>
+							<div class="carousel owl-carousel visible-xs">
+							    <div class="col-sm-3 item">
+									<div class="h3">Продажи</div>
+									<ul>
+<li><a class="popup" href="index.html#consultation">Рекламный ролик</a></li>
+<li><a class="popup" href="index.html#consultation">Продающий ролик</a></li>
+<li><a class="popup" href="index.html#consultation">Ролик для TV</a></li>
+<li><a class="popup" href="index.html#consultation">Видео-презентация</a></li>
+<li><a class="popup" href="index.html#consultation">Видео-кейс</a></li>
+<li><a class="popup" href="index.html#consultation">Видео-обзор</a></li>
+<li><a class="popup" href="index.html#consultation">Инфорграфический ролик</a></li>
+<li><a class="popup" href="index.html#consultation">Лендинг-пейдж видео</a></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="h3">Имидж</div>
+									<ul>
+<li><a class="popup" href="index.html#consultation">Корпоративный ролик / фильм</a></li>
+<li><a class="popup" href="index.html#consultation">Имиджевый кейс</a></li>
+<li><a class="popup" href="index.html#consultation">HR-ролик / фильм</a></li>
+<li><a class="popup" href="index.html#consultation">Документальный фильм</a></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="h3">Обучение</div>
+									<ul>
+<li><a class="popup" href="index.html#consultation">Ролик для персонала</a></li>
+<li><a class="popup" href="index.html#consultation">Ролик для клиентов</a></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="wrap">
+										<div class="h3">Решения для IT</div>
+										<ul>
+<li><a class="popup" href="index.html#consultation">Рекламный ролик</a></li>
+<li><a class="popup" href="index.html#consultation">Демонстрация ПО</a></li>
+<li><a class="popup" href="index.html#consultation">Видео-кейс</a></li>
+<li><a class="popup" href="index.html#consultation">Ролик для стартап-компаний</a></li>
+</ul>
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+					<div class="tab-item number2">
+						<div class="row">
+							<div class="carousel hidden-xs">
+								<div class="col-sm-3 item">
+									<div class="h3">Продажи</div>
+									<ul>
+<li><span><a class="popup" href="index.html#consultation">Цикл видео-инструментов для продаж</a></span></li>
+<li><span><a class="popup" href="index.html#consultation">Дифференцированная целевая аудитория</a></span></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="h3">Имидж</div>
+									<ul>
+<li><span><a class="popup" href="index.html#consultation">Цикл видео-инструментов для продаж</a></span></li>
+<li><span><a class="popup" href="index.html#consultation">Дифференцированные рекламные каналы</a></span></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="h3">Обучение</div>
+									<ul>
+<li><span><a class="popup" href="index.html#consultation">Комплекс видео-инструментов для IT-компании</a></span></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="wrap">
+										<div class="h3">Решения для IT</div>
+										<ul>
+<li><span><a class="popup" href="index.html#consultation">Построение корпоративной системы управления знаниями</a></span></li>
+<li><span><span><a class="popup" href="index.html#consultation">Контент</a></span></span></li>
+<li><span><a class="popup" href="index.html#consultation">Программная платформа</a></span></li>
+<li><span><span><a class="popup" href="index.html#consultation">Экспертиза</a></span></span></li>
+</ul>
+									</div>
+								</div>
+								
+								
+							</div>
+							<div class="carousel owl-carousel visible-xs">
+								<div class="col-sm-3 item">
+									<div class="h3">Продажи</div>
+									<ul>
+<li><span><a class="popup" href="index.html#consultation">Цикл видео-инструментов для продаж</a></span></li>
+<li><span><a class="popup" href="index.html#consultation">Дифференцированная целевая аудитория</a></span></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="h3">Имидж</div>
+									<ul>
+<li><span><a class="popup" href="index.html#consultation">Цикл видео-инструментов для продаж</a></span></li>
+<li><span><a class="popup" href="index.html#consultation">Дифференцированные рекламные каналы</a></span></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="h3">Обучение</div>
+									<ul>
+<li><span><a class="popup" href="index.html#consultation">Комплекс видео-инструментов для IT-компании</a></span></li>
+</ul>
+								</div>
+								
+								<div class="col-sm-3 item">
+									<div class="wrap">
+										<div class="h3">Решения для IT</div>
+										<ul>
+<li><span><a class="popup" href="index.html#consultation">Построение корпоративной системы управления знаниями</a></span></li>
+<li><span><span><a class="popup" href="index.html#consultation">Контент</a></span></span></li>
+<li><span><a class="popup" href="index.html#consultation">Программная платформа</a></span></li>
+<li><span><span><a class="popup" href="index.html#consultation">Экспертиза</a></span></span></li>
+</ul>
+									</div>
+								</div>
+								
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="concept" id="conceptId">
+			<div class="container width1550">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h1 text-center RalewaySemiBold">Картинка привлекает — концепция продаёт</div>
+						<div class="items">
+						    <article class="item numb1">
+								<div class="borderBlock RalewaySemiBold col-sm-3">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<div class="iconWrap"><img src="assets/template/img/conceptIcon1.png" alt="img"></div>
+									<div class="title hidden-xs">Видео<br>как<br>бизнес<br>инструмент</div>
+									<div class="title visible-xs">Видео как бизнес инструмент</div>
+								</div>
+								<div class="content RalewayRegular col-sm-9"><span class="text">Glenfilm —  это узкоспециализированный видео-продакшн: мы работаем только в жанре бизнес-видео. Отказ от изготовления клипов и другого шоу-контента позволил нам сфокусироваться и выработать уникальные практики в сфере корпоративных продуктов.<br><br>
+								<span class="visible920 more hidden767 ">Читать далее <i class="fa fa-chevron-down"></i></span>
+								<span class="hidden920">Мы прошли путь от производства роликов для небольших фирм к разработке концепций сложных продуктов для международных компаний — и умеем не только произвести впечатление визуальными эффектами, но и найти правильное решение для бизнес-задачи клиента. Чтобы этого достичь, мы практикуем расширенную стратегическую сессию: изучаем вашу отрасль, компанию, продукт, целевую аудиторию, её стереотипы, боли, язык и многое другое.</span></span></div>
+							</article><article class="item numb2">
+								<div class="borderBlock RalewaySemiBold col-sm-3">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<div class="iconWrap"><img src="assets/template/img/conceptIcon2.png" alt="img"></div>
+									<div class="title hidden-xs">Маркетинг<br>как основа</div>
+									<div class="title visible-xs">Маркетинг как основа</div>
+								</div>
+								<div class="content RalewayRegular col-sm-9"><span class="text">Наверняка вы сталкивались с классической ситуацией на рынке услуг, когда клиент мыслит бизнес-категориями, а подрядчик — техническими либо художественными. Такой разрыв обрекает проект на провал. В своей студии мы сделали его невозможным. Проектом руководит режиссёр-маркетолог. Выстраивая связь между творчеством и бизнес-задачами, он следит за тем, чтобы итоговый продукт достиг основной цели.<br><br>
+								<span class="visible920 more hidden767 hidden">Читать далее <i class="fa fa-chevron-down"></i></span>
+								<span class="hidden920"></span></span></div>
+							</article><article class="item numb3">
+								<div class="borderBlock RalewaySemiBold col-sm-3">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<div class="iconWrap"><img src="assets/template/img/conceptIcon3.png" alt="img"></div>
+									<div class="title hidden-xs">Гибкие<br>решения</div>
+									<div class="title visible-xs">Гибкие решения</div>
+								</div>
+								<div class="content RalewayRegular col-sm-9"><span class="text">У нас нет стандартного ответа каждому клиенту. В одних случаях мы предлагаем  один-единственный ролик, в других — серию адаптированных видео под различные каналы, ЛПР, степень «подогретости» целевой аудитории и прочее. Концепция зависит от задачи, стратегии клиента и его возможностей.<br><br>
+								<span class="visible920 more hidden767 ">Читать далее <i class="fa fa-chevron-down"></i></span>
+								<span class="hidden920">Под каждое решение мы формируем различную команду: количество и состав специалистов варьируется от задачи к задаче. Точно так же и с техническим оснащением. Этот подход позволяет нам предлагать оптимальную стоимость и реализовывать проекты разных бюджетов и сложности.</span></span></div>
+							</article><article class="item numb4">
+								<div class="borderBlock RalewaySemiBold col-sm-3">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<div class="iconWrap"><img src="assets/template/img/conceptIcon4.png" alt="img"></div>
+									<div class="title hidden-xs">Выгодная<br>подача</div>
+									<div class="title visible-xs">Выгодная подача</div>
+								</div>
+								<div class="content RalewayRegular col-sm-9"><span class="text">Мы убеждены, что производство любого ролика должно подчиняться бизнес-задачам, а не наоборот. В одном случае он должен быть «упакован» дорого, в другом — быть простым, но в то же время стильным и аккуратным, в третьем — понятным без звука.<br><br>
+								<span class="visible920 more hidden767 ">Читать далее <i class="fa fa-chevron-down"></i></span>
+								<span class="hidden920">А если говорить о его структуре, то он должен цеплять с первых секунд просмотра и мотивировать зрителя к дальнейшему контакту. Чтобы сделать видео визуально привлекательным, мы постоянно изучаем рынок, отслеживаем мировые тренды подачи информации, накапливаем опыт и всегда используем современные решения.</span></span></div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="process RalewaySemiBold">
+			<div class="container width1550">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h1">Процесс тоже</div>
+						<div class="bigTitle">Имеет значение<span class="quotes RoundsBlack">”</span></div>
+						<div class="items">
+						    <article class="item">
+								<div class="number CirceBold">1
+									<div class="number CirceBold liquid" data--5p-bottom="height:100%" data-20p-top="height:0%">1</div>
+								</div>
+								<div class="desc">
+									<div class="h2">Помогаем определиться</div>
+									<div class="h3">Если вам сложно поставить чёткие задачи перед будущим роликом, вы затрудняетесь ответить на вопрос, кому как и о чём говорить, у вас возникают сложности с маркетингом — мы поможем и в этом случае.</div>
+								</div>
+								<div class="borderVisible">
+									<div class="borderScroll" data--5p-bottom="width:0%" data-40p-top="width:100%"></div>
+								</div>
+							</article><article class="item">
+								<div class="number CirceBold">2
+									<div class="number CirceBold liquid" data--5p-bottom="height:100%" data-20p-top="height:0%">2</div>
+								</div>
+								<div class="desc">
+									<div class="h2">Бережём ваши нервы</div>
+									<div class="h3">Мы за партнёрский подход и открытость. Наши клиенты всегда получают быстрые и полные ответы на вопросы, продукты в установленные сроки и прозрачную смету.</div>
+								</div>
+								<div class="borderVisible">
+									<div class="borderScroll" data--5p-bottom="width:0%" data-40p-top="width:100%"></div>
+								</div>
+							</article><article class="item">
+								<div class="number CirceBold">3
+									<div class="number CirceBold liquid" data--5p-bottom="height:100%" data-20p-top="height:0%">3</div>
+								</div>
+								<div class="desc">
+									<div class="h2">Держим в курсе дел</div>
+									<div class="h3">За темпами и ходом проекта вы можете наблюдать онлайн с любого устройства. Для этого мы используем облачную платформу Microsoft Power BI.</div>
+								</div>
+								<div class="borderVisible">
+									<div class="borderScroll" data--5p-bottom="width:0%" data-40p-top="width:100%"></div>
+								</div>
+							</article><article class="item">
+								<div class="number CirceBold">4
+									<div class="number CirceBold liquid" data--5p-bottom="height:100%" data-20p-top="height:0%">4</div>
+								</div>
+								<div class="desc">
+									<div class="h2">Предлагаем варианты решений</div>
+									<div class="h3">Для каждого проекта мы предлагаем несколько вариантов решения задачи, которые отличаются по сложности реализации и, соответственно, стоимости.</div>
+								</div>
+								<div class="borderVisible">
+									<div class="borderScroll" data--5p-bottom="width:0%" data-40p-top="width:100%"></div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="trust">
+			<div class="container width1550">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h1 text-center RalewaySemiBold" data--5p-bottom="transform:translateY(0%)" data-9p-top="transform:translateY(0%)">Нам доверяют</div>
+						<div class="items">
+						    <article class="item" data--5p-bottom="transform:translateY(-10%)" data-9p-top="transform:translateY(110%)">
+								<div class="number"><span>8</span> лет</div>
+								<div class="title">на рынке</div>
+							</article><article class="item" data--5p-bottom="transform:translateY(0%)" data-9p-top="transform:translateY(100%)">
+								<div class="number"><span>95</span>%</div>
+								<div class="title">обращений по<br>рекомендации</div>
+							</article><article class="item" data--5p-bottom="transform:translateY(10%)" data-9p-top="transform:translateY(90%)">
+								<div class="number"><span>90</span>%</div>
+								<div class="title">постоянных<br>клиентов</div>
+							</article><article class="item" data--5p-bottom="transform:translateY(20%)" data-9p-top="transform:translateY(80%)">
+								<div class="number"><span>100</span>%</div>
+								<div class="title">принятых<br>работ</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio" id="portfol">
+			<div class="leftSide hidden-xs">
+				<div class="top">
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb1 width50">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+					<div class="width50 right">
+						<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb2 width50">
+							<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+							<div class="play"><i class="fa fa-play"></i></div>
+		    		</a>
+						<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb3 width50">
+							<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+							<div class="play"><i class="fa fa-play"></i></div>
+						</a>
+						<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb4 width50">
+							<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+							<div class="play"><i class="fa fa-play"></i></div>
+						</a>
+						<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb5 width50">
+							<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+							<div class="play"><i class="fa fa-play"></i></div>
+						</a>
+					</div>
+				</div>
+				<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb6 bottom width50">
+					<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+					<div class="play"><i class="fa fa-play"></i></div>
+				</a>
+			</div>
+			<div class="rightSide hidden-xs">
+				<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb7 width50 block">
+					<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+					<div class="play"><i class="fa fa-play"></i></div>
+				</a>
+				<div class="bottom">
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb8 width50">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el numb9 width50">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+				</div>
+			</div>
+			<div class="visible-xs">
+				<div class="items">
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el1">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+			        </a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el2">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el3">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el4">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+				  </a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el5">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el6">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el7">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+				  </a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el8">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+					<a data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1" class="el el9">
+						<img src="assets/template/img/caseImg.png" alt="img">
+						<div class="microsoft"><i class="fa fa-windows"></i><span>Microsoft</span></div>
+						<div class="play"><i class="fa fa-play"></i></div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="price">
+			<div class="container width1550">
+				<div class="flexWrap">
+					<div class="borderBlock">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<div class="title">Стоимость</div>
+						<div class="h2">Всегда оптимальная</div>
+						<div class="iconWrap"><img src="assets/template/img/priceIcon1.png" alt="img"></div>
+					</div>
+					<div class="right">
+						<div class="top">
+							<div class="title">Стоимость услуг всегда рассчитывается индивидуально и зависит от объёма задач, их сложности, состава команды, сроков и ряда прочих параметров. Таким образом, мы можем предложить широкий диапазон решений.</div>
+							<div class="number">от 1500 у.е.</div>
+						</div>
+						<div class="bottom">
+							<div class="h2">Чтобы узнать стоимость своего решения, отправьте запрос.</div>
+							<a href="index.html#priceForm" class="btnSecond popup">Рассчитать стоимость</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="case">
+			<div class="top">
+				<div class="h1 text-center">Кейсы. Как мы создаем успешные<br>видео-инструменты</div>
+			</div>
+			<div class="bottom hidden-xs">
+				<div class="leftSide">
+					<div class="el numb1">
+						<div class="caseInfo">
+							<div class="title">Кейс</div>
+							<div class="h2">«Какое-то название»</div>
+						</div>
+						<a class="btnSecond" data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1">Смотреть кейс</a>
+					</div>
+				</div>
+				<div class="rightSide">
+					<div class="el numb2">
+						<div class="caseInfo">
+							<div class="title">Кейс</div>
+							<div class="h2">«Какое-то название»</div>
+						</div>
+						<a class="btnSecond" data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1">Смотреть кейс</a>
+					</div>
+					<div class="flexWrap">
+						<div class="el numb3">
+							<div class="caseInfo">
+								<div class="title">Кейс</div>
+								<div class="h2">«Какое-то название»</div>
+							</div>
+							<a class="btnSecond" data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1">Смотреть кейс</a>
+						</div>
+						<div class="el numb4">
+							<div class="caseInfo">
+								<div class="title">Кейс</div>
+								<div class="h2">«Какое-то название»</div>
+							</div>
+							<a class="btnSecond" data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1">Смотреть кейс</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="visible-xs">
+				<div class="bottom">
+					<div class="el">
+							<img src="assets/template/img/caseImg.png" alt="img">
+							<div class="caseInfo">
+								<div class="title">Кейс</div>
+								<div class="h2">«Какое-то название»</div>
+							</div>
+							<a class="btnSecond" data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1">Смотреть кейс</a>
+					</div>
+					<div class="el ">
+							<img src="assets/template/img/caseImg.png" alt="img">
+							<div class="caseInfo">
+								<div class="title">Кейс</div>
+								<div class="h2">«Какое-то название»</div>
+							</div>
+							<a class="btnSecond" data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1">Смотреть кейс</a>
+					</div>
+					<div class="el ">
+							<img src="assets/template/img/caseImg.png" alt="img">
+							<div class="caseInfo">
+								<div class="title">Кейс</div>
+								<div class="h2">«Какое-то название»</div>
+							</div>
+							<a class="btnSecond" data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1">Смотреть кейс</a>
+					</div>
+					<div class="el ">
+							<img src="assets/template/img/caseImg.png" alt="img">
+							<div class="caseInfo">
+								<div class="title">Кейс</div>
+								<div class="h2">«Какое-то название»</div>
+							</div>
+							<a class="btnSecond" data-fancybox href="https://www.youtube.com/embed/RwE7VCOG7ac?rel=0&amp;autoplay=1">Смотреть кейс</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="brands">
+			<div class="container width1550">
+				<div class="flexWrap">
+					<div class="borderBlock">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<div class="title">Каждым проектом</div>
+						<div class="h2">Мы гордимся</div>
+						<div class="iconWrap"><img src="assets/template/img/brandImgLeft.png" alt="img"></div>
+					</div>
+					<div class="overflowDiv">
+					    <div class="brandsWrap"><img src="assets/template/img/brandsV2.png" alt="img"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews" id="review">
+			<div class="container width1550">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h1 text-center">Клиенты говорят о нас:</div>
+					</div>
+				</div>
+				<div class="items owl-carousel">
+				    <article class="item">
+						<a href="assets/template/img/review1.png" target="_blank" class="reviewWrap"><img src="assets/template/img/review1.png" alt="img"></a>
+						<div class="content">
+							<div class="reviewIcon"><img src="assets/template/img/reviewIcon1.png" alt="img"></div>
+							<div class="title">Компания «Microsoft»</div>
+							<div class="h2">Когда я только начинала работать копирайтером, не надеялась на большие заработки, думала, что максимум, что получится получить - 2000-3000 рублей в месяц. Так и было, пока я работала только на Контент монстре, Етексте и ТекстСейле. Но все изменилось, не сразу, но достаточно стремительно, когда я нашла в интернете биржу.</div>
+						</div>
+					</article><article class="item">
+						<a href="assets/template/img/review1.png" target="_blank" class="reviewWrap"><img src="assets/template/img/review1.png" alt="img"></a>
+						<div class="content">
+							<div class="reviewIcon"><img src="assets/template/img/reviewIcon1.png" alt="img"></div>
+							<div class="title">Компания «Microsoft»</div>
+							<div class="h2">Когда я только начинала работать копирайтером, не надеялась на большие заработки, думала, что максимум, что получится получить - 2000-3000 рублей в месяц. Так и было, пока я работала только на Контент монстре, Етексте и ТекстСейле. Но все изменилось, не сразу, но достаточно стремительно, когда я нашла в интернете биржу.</div>
+						</div>
+					</article><article class="item">
+						<a href="assets/template/img/review1.png" target="_blank" class="reviewWrap"><img src="assets/template/img/review1.png" alt="img"></a>
+						<div class="content">
+							<div class="reviewIcon"><img src="assets/template/img/reviewIcon1.png" alt="img"></div>
+							<div class="title">Компания «Microsoft»</div>
+							<div class="h2">Когда я только начинала работать копирайтером, не надеялась на большие заработки, думала, что максимум, что получится получить - 2000-3000 рублей в месяц. Так и было, пока я работала только на Контент монстре, Етексте и ТекстСейле. Но все изменилось, не сразу, но достаточно стремительно, когда я нашла в интернете биржу.</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="special">
+			<div class="container width1550">
+				<div class="flexWrap">
+					<div class="borderBlock">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<div class="title">Специальное преложение для сео и сма</div>
+						<div class="h2">Специальное предложение</div>
+					</div>
+					<div class="content">
+						<div class="flexCont">
+							<div class="imgWrap"><img src="assets/template/img/specialImg.png" alt="img"></div>
+							<div class="title">У вас сложный проект<br>или вы впервые создаёте видео?</div>
+						</div>
+						<div class="bot">
+							<div class="h2">Обсудите свой проект за бизнес-завтраком с руководителем студии.<br>Он поможет определиться с задачей и спланировать работу.</div>
+							<a href="index.html#breakFastForm" class="btnSecond popup small">Бизнес-завтрак с руководителем</a>
+							<a href="index.html#breakFastForm" class="btnSecond popup big">Пригласить руководителя на бизнес-завтрак</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="methodology">
+			<div class="container width1550">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h1 text-center hidden-xs">Методология эффективного управления<br>проектами</div>
+						<div class="h1 text-center visible-xs">Методология эффективного управления проектами</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-7">
+						<div class="left">
+							<div class="snakeWrap"><img src="assets/template/img/snakeActive1.png" alt="img"></div>
+							<div class="items wrapper-tab hidden-xs">
+							    <div class="item numb1">
+									<div class="title active" id="tab1" data-number="1">Организационная<br>часть</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive1.png" alt="img"></div>
+								</div><div class="item numb2">
+									<div class="title " id="tab2" data-number="2">Стратегическая<br>сессия</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive2.png" alt="img"></div>
+								</div><div class="item numb3">
+									<div class="title " id="tab3" data-number="3">Пре-продакшн</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive3.png" alt="img"></div>
+								</div><div class="item numb4">
+									<div class="title " id="tab4" data-number="4">Создание проекта</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive4.png" alt="img"></div>
+								</div><div class="item numb5">
+									<div class="title " id="tab5" data-number="5">Последние работы</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive5.png" alt="img"></div>
+								</div><div class="item numb6">
+									<div class="title " id="tab6" data-number="6">Дополнительные<br>работы</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive6.png" alt="img"></div>
+								</div><div class="item numb7">
+									<div class="title " id="tab7" data-number="7">Сдача проекта<br>клиенту</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive7.png" alt="img"></div>
+								</div>
+							</div>
+							<div class="items wrapper-tab owl-carousel visible-xs">
+							    <div class="item numb1">
+									<div class="title active" id="tab1" data-number="1">Организационная<br>часть</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive1.png" alt="img"></div>
+								</div><div class="item numb2">
+									<div class="title " id="tab2" data-number="2">Стратегическая<br>сессия</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive2.png" alt="img"></div>
+								</div><div class="item numb3">
+									<div class="title " id="tab3" data-number="3">Пре-продакшн</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive3.png" alt="img"></div>
+								</div><div class="item numb4">
+									<div class="title " id="tab4" data-number="4">Создание проекта</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive4.png" alt="img"></div>
+								</div><div class="item numb5">
+									<div class="title " id="tab5" data-number="5">Последние работы</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive5.png" alt="img"></div>
+								</div><div class="item numb6">
+									<div class="title " id="tab6" data-number="6">Дополнительные<br>работы</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive6.png" alt="img"></div>
+								</div><div class="item numb7">
+									<div class="title " id="tab7" data-number="7">Сдача проекта<br>клиенту</div>
+									<div class="link hidden-xs">Подробнее</div>
+									<div class="hidden"><img src="assets/template/img/snakeActive7.png" alt="img"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<div class="tab-content">
+						    <div class="right tab-item2 tab1">
+								<div class="title">Организационная часть</div>
+								<div class="items">
+									<article class="item">
+										<div class="text"><p>1.1. Установочная встреча.</p>
+<p dir="ltr">Устное интервью режиссёра с клиентом, определение цели и задач, обсуждение организационных вопросов, оценка коридора стоимости.</p>
+<p>1.2. Workflow.</p>
+<p><span id="docs-internal-guid-d0d44711-2fc4-8001-9430-8e92b46c5f17">Подготовка подробной дорожной карты проекта с контрольными точками. Открытие клиенту персональной страницы на платформе Power BI для удобного мониторинга проекта, а также запуск электронного календаря.</span></p></div>
+									</article>
+								</div>
+								<div class="owl-nav hidden-xs">
+									<div class="owl-prev"><i class="fa fa-angle-left"></i></div>
+									<div class="owl-next"><i class="fa fa-angle-right"></i></div>
+								</div>
+							</div><div class="right tab-item2 tab2">
+								<div class="title">Стратегическая сессия</div>
+								<div class="items">
+									<article class="item">
+										<div class="text"><p>2.1. Вовлечение, маркетинг, тренды.</p>
+<p>Изучение продукта, компании, рынка, ЦА, воронки продаж и анализ трендов; Формат: самостоятельная работа и короткие скайп-консультации (либо очные встречи) с клиентом. Для некоторых задач — знакомство с продуктом или брендом на локации клиента. К примеру, при подготовке концепции и сценария hr-ролика — проведение одного или более дня в офисе клиента, знакомство с сотрудниками компании, прочее.</p>
+<p>2.2. Концепция.</p>
+<p>Разработка концепции: количество роликов, их жанр и особенности.</p>
+<p>2.3. Согласование и доработка.</p>
+<p>Презентация основного концепта клиенту, согласование.</p></div>
+									</article>
+								</div>
+								<div class="owl-nav hidden-xs">
+									<div class="owl-prev"><i class="fa fa-angle-left"></i></div>
+									<div class="owl-next"><i class="fa fa-angle-right"></i></div>
+								</div>
+							</div><div class="right tab-item2 tab3">
+								<div class="title">Пре-продакшн</div>
+								<div class="items">
+									<article class="item">
+										<div class="text"><p>3.1. Сценарий.</p>
+<p>Разработка, согласование сценария. Если нужно, внесение правок.</p>
+<p>3.2. Финальная смета.</p>
+<p>Формирование окончательной сметы в рамках ранее установленного коридора.</p>
+<p>3.3. Подготовка к съёмкам.</p>
+<p>Выбор локаций, актёров, планирование.</p></div>
+									</article>
+								</div>
+								<div class="owl-nav hidden-xs">
+									<div class="owl-prev"><i class="fa fa-angle-left"></i></div>
+									<div class="owl-next"><i class="fa fa-angle-right"></i></div>
+								</div>
+							</div><div class="right tab-item2 tab4">
+								<div class="title">Создание проекта</div>
+								<div class="items">
+									<article class="item">
+										<div class="text"><p>Съёмки. Процесс производства (продакшн, постпродакшн) по утвержденному сценарию.</p></div>
+									</article>
+								</div>
+								<div class="owl-nav hidden-xs">
+									<div class="owl-prev"><i class="fa fa-angle-left"></i></div>
+									<div class="owl-next"><i class="fa fa-angle-right"></i></div>
+								</div>
+							</div><div class="right tab-item2 tab5">
+								<div class="title">Последние работы</div>
+								<div class="items">
+									<article class="item">
+										<div class="text"><p>5.1. Графическая часть.</p>
+<p>5.2. Согласование драфта — черновика.</p>
+<p>5.3. Коррекции (цвет, звук, прочее).</p>
+<p>5.4. Согласование финальной версии.</p></div>
+									</article>
+								</div>
+								<div class="owl-nav hidden-xs">
+									<div class="owl-prev"><i class="fa fa-angle-left"></i></div>
+									<div class="owl-next"><i class="fa fa-angle-right"></i></div>
+								</div>
+							</div><div class="right tab-item2 tab6">
+								<div class="title">Дополнительные работы</div>
+								<div class="items">
+									<article class="item">
+										<div class="text"><p>Если нужно: перевод на иностранный язык, субтитры или закадровый перевод, подготовка СТА-кнопок и скриншотов для Youtube, спецверсии для конференций и прочее.</p></div>
+									</article>
+								</div>
+								<div class="owl-nav hidden-xs">
+									<div class="owl-prev"><i class="fa fa-angle-left"></i></div>
+									<div class="owl-next"><i class="fa fa-angle-right"></i></div>
+								</div>
+							</div><div class="right tab-item2 tab7">
+								<div class="title">Сдача проекта клиенту</div>
+								<div class="items">
+									<article class="item">
+										<div class="text"></div>
+									</article>
+								</div>
+								<div class="owl-nav hidden-xs">
+									<div class="owl-prev"><i class="fa fa-angle-left"></i></div>
+									<div class="owl-next"><i class="fa fa-angle-right"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="classicStudio">
+		    <a href="index.html" class="logoWrap visible-xs"><img src="assets/template/img/logoBlack.png" alt="img"></a>
+		    <div class="studioText visible-xs">Классическая студия</div>
+			<div class="container">
+				<div class="row top">
+						<div class="width50">
+							<a href="index.html" class="logoWrap minH"><img src="assets/template/img/logoBlack.png" alt="img"></a>
+							<div class="vs minH">vs</div>
+							<div class="studioText minH">Классическая<br>студия</div>
+						</div>
+						<div class="owl-carousel">
+						    <div class="slide">
+								<div class="el">Фокусировка: только бизнес-видео.</div>
+								<div class="el">Продукт</div>
+								<div class="el">Полный спектр жанров.</div>
+							</div><div class="slide">
+								<div class="el">Режиссёр-маркетолог.</div>
+								<div class="el">Руководитель проекта</div>
+								<div class="el">Режиссёр.</div>
+							</div><div class="slide">
+								<div class="el">Гибкий состав команды под разные задачи.</div>
+								<div class="el">Штат</div>
+								<div class="el">Различные варианты.</div>
+							</div><div class="slide">
+								<div class="el">На выбор клиента: онлайн-мониторинг статуса проекта либо личное общение.</div>
+								<div class="el">Мониторинг</div>
+								<div class="el">Личное общение.</div>
+							</div><div class="slide">
+								<div class="el">Стратегическая сессия — пре-продакшн — продакшн — постпродакшн — услуги саппорта.</div>
+								<div class="el">Схема работы</div>
+								<div class="el">Препродакшн — продакшн — постпродакшн.</div>
+							</div><div class="slide">
+								<div class="el">Каждый проект утверждает лично руководитель студии.</div>
+								<div class="el">Ответственное лицо</div>
+								<div class="el">Различные варианты.</div>
+							</div><div class="slide">
+								<div class="el">Маркетинговый анализ, написание сценария.</div>
+								<div class="el">Препродакшн</div>
+								<div class="el">Написание сценария.</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="timeToStart">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="h1">Начните бесплатно</div>
+						<div class="h2 hidden767">Расскажите о вашей задаче, чтобы наш режиссёр<br>подготовился к консультации</div>
+						<div class="h2 visible767">Расскажите о вашей задаче, чтобы наш режиссёр подготовился к консультации</div>
+                        
+
+<form method="POST">
+    <input type="text" name="workemail" value="" class="field"/>
+							<div class="flexCont">
+								<div class="inputs">
+									<input type="text" name="name" required placeholder="Как можно к вам обращаться?">
+									<input type="tel" name="phoneClient" required placeholder="Ваш телефон">
+								</div>
+								<textarea name="message" placeholder="Расскажите режиссеру о задаче, проекте, компании используя текст или ссылки - это необходимо, если вы желаете, что бы режиссер подгодовился к более информативной консультации"></textarea>
+							</div>
+							<input type="submit" class="btn btnSecond" value="Отправить"></input>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<footer class="myFooter" id="contac">
+			<div class="container fullHd">
+				<div class="flexWrap">
+					<div class="logoAndCopy">
+						<a href="index.html" class="logo"><img src="assets/template/img/logoBlack.png" alt="img"></a>
+						<div class="client"><span class="quot">“</span>Превратите зрителя в клиента</div>
+						<div class="copyright">
+							<div class="el">Все права защищены&copy;</div>
+							<div class="el">Неправомерное использование контента</div>
+							<div class="el">с данного ресура без указания авторства будет</div>
+							<div class="el">рассматриваться как плагиат и подлежит рассмотрению в суде</div>
+						</div>
+					</div>
+					<div class="links hidden-xs">
+						<ul>
+							<li><a href="index.html#solut" class="needScroll">Услуги</a></li>
+							<li><a href="index.html#portfol" class="needScroll">Портфолио</a></li>
+							<li><a href="index.html#review" class="needScroll">О нас</a></li>
+						</ul>
+					</div>
+					<div class="links">
+						<ul>
+						    <li class="hidden-xs"><span>Офис в Украине</span></li>
+							<li class="hidden-xs">
+								<div><span>Тел.:</span><a href="tel:+380636027276" class="CirceBold">+38 063 602 72 76</a></div>
+								<div><span>e-mail:</span><a href="mailto:info@glenfilm.com">info@glenfilm.com</a></div>
+							</li>
+							<li>
+								<div class="text">Отдел сотрудничества с РА</div>
+								<a href="mailto:ra@glenfilm.com" class="accentColor">Написать письмо</a>
+							</li>
+							<li>
+								<div class="text">HR отдел</div>
+								<a href="mailto:cv@glenfilm.com" class="accentColor">Отправить CV</a>
+							</li>
+							<li>
+								<div class="text">Отдел маркетинга</div>
+								<a href="mailto:marketingra@glenfilm.com" class="accentColor">Написать письмо</a>
+							</li>
+							<li>
+								<div class="text">Отдел контроля качества</div>
+								<a href="mailto:qc@glenfilm.com" class="accentColor">Оставить запрос</a>
+							</li>
+						</ul>
+					</div>
+					<!--<a href="#consultation" class="popup visible1920">Консультация режиссёра</a>-->
+					
+					<div class="socialAndOurLogo">
+					    <div class="links">
+						    <ul>
+    						    <li><span>Офис в Германии</span></li>
+    							<li>
+    								<!--<div><span>Тел.:</span><a href="tel:+tv.phone:stripString=` `]]" class="CirceBold">+tv.phone]]</a></div>-->
+    								<div><span>e-mail:</span><a href="mailto:berlin@glenfilm.com">berlin@glenfilm.com</a></div>
+    							</li>
+						    </ul>
+				        </div>
+					    <div class="socialIcons hidden-xs">
+							<a href="https://www.facebook.com/GlenFilm" target="_blank" class="icon"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/company/glenfilm" target="_blank" class="icon"><i class="fa fa-linkedin"></i></a><a href="https://www.youtube.com/user/GlenFilmProduction" target="_blank" class="icon"><i class="fa fa-youtube"></i></a>
+						</div>
+						<div class="ourLogo">
+							&copy Nick
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<div class="hidden">
+	  <!-- форма по умолчанию -->
+		
+
+<form method="POST" class="formsPopup consultation" id="consultation">
+            <input type="text" name="workemail" value="" class="field"/>
+            
+            <div class="flexWrap">
+                <div class="hidden-xs logoWhite"><img src="assets/template/img/logo.png" alt="img"></div>
+    			<div class="h4">Будем рады помочь Вам</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-5">
+					<input type="text" name="name" required placeholder="Как можно к вам обращаться?">
+					<input type="text" name="EmailOrPhone" required placeholder="Ваш e-mail или телефон">
+					<input type="text" name="time" class="hidden-xs" id="datetimepicker" placeholder="Выберите удобное время">
+					<input type="datetime-local" name="timeMobile" class="visible-xs" value="18:00" min="09:00" max="20:00">
+				</div>
+				<div class="col-sm-7">
+					<textarea name="message" placeholder="Расскажите режиссеру о задаче, проекте, компании используя текст или ссылки - это необходимо, если вы желаете, что бы режиссер подгодовился к более информативной консультации"></textarea>
+					<input type="submit" class="btn" value="Получить консультацию режиссера">
+				</div>
+			</div>
+		</form>
+
+	  <!-- форма по skype -->
+        
+		<form method="POST" class="formsPopup consultation" id="skypeForm">
+            <input type="text" name="workemail" value="" class="field"/>
+            
+			<div class="flexWrap">
+                <div class="hidden-xs logoWhite"><img src="assets/template/img/logo.png" alt="img"></div>
+    			<div class="h4">Будем рады помочь Вам</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-5">
+					<input type="text" name="name" required placeholder="Как можно к вам обращаться?">
+					<input type="text" name="skype" required placeholder="Ваш skype">
+					<input type="text" name="time" class="hidden-xs" id="datetimepickerSkype" placeholder="Выберите удобное время">
+					<input type="datetime-local" name="timeMobile" class="visible-xs" value="18:00" min="09:00" max="20:00">
+				</div>
+				<div class="col-sm-7">
+					<textarea name="message" placeholder="Расскажите режиссеру о задаче, проекте, компании используя текст или ссылки - это необходимо, если вы желаете, что бы режиссер подгодовился к более информативной консультации"></textarea>
+					<input type="submit" class="btn" value="Получить консультацию режиссера">
+				</div>
+			</div>
+		</form>
+
+      <!-- форма по phone -->
+        
+		<form method="POST" class="formsPopup consultation" id="phoneForm">
+
+			<input type="text" name="workemail" value="" class="field"/>
+            
+            <div class="flexWrap">
+                <div class="hidden-xs logoWhite"><img src="assets/template/img/logo.png" alt="img"></div>
+    			<div class="h4">Будем рады помочь Вам</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-5">
+					<input type="text" name="name" required placeholder="Как можно к вам обращаться?">
+					<input type="text" name="phone" required placeholder="Ваш телефон">
+					<input type="text" name="time" class="hidden-xs" id="datetimepickerPhone" placeholder="Выберите удобное время">
+					<input type="datetime-local" name="timeMobile" class="visible-xs" value="18:00" min="09:00" max="20:00">
+				</div>
+				<div class="col-sm-7">
+					<textarea name="message" placeholder="Расскажите режиссеру о задаче, проекте, компании используя текст или ссылки - это необходимо, если вы желаете, что бы режиссер подгодовился к более информативной консультации"></textarea>
+					<input type="submit" class="btn" value="Получить консультацию режиссера">
+				</div>
+			</div>
+		</form>
+
+	  <!-- форма по e-mail -->
+        
+		<form method="POST" class="formsPopup consultation" id="emailForm">
+
+			<input type="text" name="workemail" value="" class="field"/>
+            
+            <div class="flexWrap">
+                <div class="hidden-xs logoWhite"><img src="assets/template/img/logo.png" alt="img"></div>
+    			<div class="h4">Будем рады помочь Вам</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-5">
+					<input type="text" name="name" required placeholder="Как можно к вам обращаться?">
+					<input type="email" name="emailClient" required placeholder="Ваш e-mail">
+				</div>
+				<div class="col-sm-7">
+					<textarea name="message" placeholder="Расскажите режиссеру о задаче, проекте, компании используя текст или ссылки - это необходимо, если вы желаете, что бы режиссер подгодовился к более информативной консультации"></textarea>
+					<input type="submit" class="btn" value="Получить консультацию режиссера">
+				</div>
+			</div>
+		</form>
+         
+      <!-- форма рассчитать стоимость -->
+        
+
+<form method="POST" class="formsPopup consultation" id="priceForm">
+            <input type="text" name="workemail" value="" class="field"/>
+            
+            <div class="flexWrap">
+                <div class="hidden-xs logoWhite"><img src="assets/template/img/logo.png" alt="img"></div>
+    			<div class="h4 hidden-xs">Заполните форму для того,чтобы мы могли<br>просчитать приблизительный корридор стоимости</div>
+    			<div class="h4 visible-xs">Заполните форму для того,чтобы мы могли просчитать приблизительный корридор стоимости</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-5">
+					<input type="text" name="name" required placeholder="Как можно к вам обращаться?">
+					<input type="text" name="EmailPhone" required placeholder="Ваш e-mail или телефон">
+				</div>
+				<div class="col-sm-7">
+					<textarea name="message" placeholder="Расскажите на сколько возможно полно о задаче, о том что хотите получить и примера - это необходимо для того что бы максимально сузить оценочный коридор"></textarea>
+					<input type="submit" class="btn" name="formPrice" value="Рассчитать стоимость">
+				</div>
+			</div>
+			
+			<div class="row">
+		        <div class="col-md-12">
+		            <div class="text">*Внимание! Для высокобюджетный проектов, к примеру, реклама на ТВ просим обращаться к нам напрямую, поскольку оперативный способ оценки будет неприемлем в этом случае</div>
+		        </div>
+			</div>
+			
+		</form>
+      
+      <!-- форма бизнес-завтра -->
+        
+
+<form method="POST" class="formsPopup consultation" id="breakFastForm">
+            <input type="text" name="workemail" value="" class="field"/>
+            
+            <div class="flexWrap">
+                <div class="hidden-xs logoWhite"><img src="assets/template/img/logo.png" alt="img"></div>
+    			<div class="h4">Буду рад знакомству!</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-5">
+					<input type="text" name="name" required placeholder="Как можно к вам обращаться?">
+					<input type="text" name="phoneEmail" required placeholder="Ваш e-mail или телефон">
+					<input type="text" name="time" class="hidden-xs" id="datetimepickerBreakFast" placeholder="Выберите удобное время">
+					<input type="datetime-local" name="timeMobile" class="visible-xs" value="18:00" min="09:00" max="20:00">
+				</div>
+				<div class="col-sm-7">
+					<textarea name="message" placeholder="Расскажите немного, о чем бы вы хотели узнать"></textarea>
+					<input type="submit" class="btn" value="Позавтракать">
+				</div>
+			</div>
+		</form>
+
+	</div>
+	
+	<div class="topBtn" title="Наверх"><i class="fa fa-angle-double-up"></i></div>
+	
+	<link rel="stylesheet" href="assets/template/css/main.min.css">
+	<!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<script src="assets/template/js/scripts.min.js"></script>
+
+</body>
+</html>
